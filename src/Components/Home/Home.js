@@ -8,8 +8,7 @@ const Home = () =>{
         <div >
 
             <SideBar />
-            <SocialMediaIcons />
-
+            
         </div>
     )
 }

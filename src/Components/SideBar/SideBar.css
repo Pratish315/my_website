@@ -3,47 +3,17 @@
     top: 0;
     left: 0;
     width: 18%;
-    height: 100vh;
+    height: 100vh; /* 100% of the viewport's height */
     background: #191d2b;
-    border-right: 1px solid #2e344e;
+    border-right: 1px solid #4e2e2e;
     z-index: 10;
     transition: all 0.4s ease-out;
   }
 
-  @media (max-width: 500px) {
-    .Closesidebar {
-      width: 260px;
-      transform: translateX(-260px);
-    }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* vertical adjustment */
+    justify-content: center; /* horizontal adjustment */
   }
-  @media (max-width: 700px) {
-    .Closesidebar {
-      width: 260px;
-      transform: translateX(-260px);
-    }
-  }
-  @media (max-width: 1000px) {
-    .Closesidebar {
-      width: 260px;
-      transform: translateX(-260px);
-    }
-  }
-  /* //Open SideBar */
-  @media (max-width: 500px) {
-    .Opensidebar {
-      width: 260px;
-      transform: translateX(0);
-    }
-  }
-  @media (max-width: 700px) {
-    .Opensidebar {
-      width: 260px;
-      transform: translateX(0);
-    }
-  }
-  @media (max-width: 1000px) {
-    .Opensidebar {
-      width: 260px;
-      transform: translateX(0);
-    }
-  }
+
