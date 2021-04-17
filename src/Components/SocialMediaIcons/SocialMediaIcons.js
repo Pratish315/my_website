@@ -5,7 +5,7 @@ import './SocialMediaIcons.css'
 
 const SocialMediaIcons = () =>{
     return (
-        <div >
+        <div className ='sm-icons'>
 
             <a href="https://www.linkedin.com/in/arun-singh1999/" rel="noopener noreferrer"  target="_blank">
                 <FontAwesomeIcon icon={faFacebook} size = '3x' color = 'black' className ='sm-icons' />

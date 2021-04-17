@@ -1,0 +1,14 @@
+.sm-icons a{
+    display: inline-flex;
+    width: 3.125em;
+    height: 3.125em;
+    border-radius: 30%;
+    border: 0.125em solid #2e344e;
+    margin: 1.25em;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sm-icons:hover {
+    color: rgb(162, 255, 182);
+  }
