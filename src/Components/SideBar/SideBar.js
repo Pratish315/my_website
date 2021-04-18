@@ -5,10 +5,12 @@ import SocialMediaIcons from "../SocialMediaIcons/SocialMediaIcons";
 const SideBar = () =>{
     return (
         <div className ='sidebar' >
-            <div className ='container'>
-                <p> WTF </p>
+
+            <div className ='sideBarContainer'>
+                <p> WTF vsdfsfsd</p>
                 <SocialMediaIcons />
             </div>
+
         </div>
     )
 }

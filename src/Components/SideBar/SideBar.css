@@ -2,7 +2,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 18%;
+    width: 20%;
     height: 100vh; /* 100% of the viewport's height */
     background: #191d2b;
     border-right: 1px solid #4e2e2e;
@@ -10,7 +10,7 @@
     transition: all 0.4s ease-out;
   }
 
-  .container {
+  .sideBarContainer {
     display: flex;
     flex-direction: column;
     align-items: center; /* vertical adjustment */
