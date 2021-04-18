@@ -1,13 +1,13 @@
 import React from "react";
 import SocialMediaIcons from "../SocialMediaIcons/SocialMediaIcons";
-import './MainSection.css'
+import './Content.css'
 import Particles from "../Particles/Particles";
 
-const MainSection = () =>{
+const Content = () =>{
     return (
-        <div className ='mainSection' >
+        <div className ='Content' >
 
-            <div className ='mainSectionContainer'>
+            <div className ='ContentContainer'>
                 <Particles />
                 <p> WTF vsdfsfsd</p>
                 <SocialMediaIcons />
@@ -18,4 +18,4 @@ const MainSection = () =>{
     )
 }
 
-export default MainSection
+export default Content

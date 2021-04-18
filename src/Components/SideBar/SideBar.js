@@ -1,16 +1,18 @@
 import React from "react";
-import './SideBar.css'
-import SocialMediaIcons from "../SocialMediaIcons/SocialMediaIcons";
+import './SideBar.css';
 import ProfilePicture from "../ProfilePicture/ProfilePicture";
+import HLine from "../HLine/HLine";
 
 const SideBar = () =>{
     return (
-        <div className ='sidebar' >
+        <div className ='grid-sidebar sidebar' >
 
-            <div className ='sideBarContainer'>
+            <div className = "style">
                 <ProfilePicture />
-                <p> WTF vsdfsfsd</p>
-                <p> WTF vsdfsfsd</p>
+            </div>
+
+            <div >
+                3
             </div>
 
         </div>

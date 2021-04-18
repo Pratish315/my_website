@@ -1,12 +1,6 @@
-.profilePic {   
-    display: flex;
-    width: 17.125em;
-    height: 19.125em;
-    border-radius: 20%;
-    border: 0.125em solid #1433be;
-    margin: 1em;
-    margin-top: 3em;
-    align-items: center; /* vertical adjustment */
-    justify-content: center; /* horizontal adjustment */
-    
-  }
+
+.profilePic {
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}

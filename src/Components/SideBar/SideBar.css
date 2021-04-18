@@ -1,19 +1,26 @@
 .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 20%;
+    position: absolute; /* according to its 1st parent */
+    width: 20vw; /* 20% of the viewport's width */
     height: 100vh; /* 100% of the viewport's height */
-    background: #191d2b;
-    border-right: 1px solid #4e2e2e;
+    background: #fcfcfc;
+    border-right: 1px solid #597be9;
     z-index: 1;
     transition: all 0.4s ease-out;
   }
-
-  .sideBarContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* vertical adjustment */
-    justify-content: center; /* horizontal adjustment */
+ 
+  .grid-sidebar{
+    display: grid;
+    grid-template-rows: 40% 60%;
   }
 
+  .grid-sidebar div:nth-child(even) {
+    background-color: blue;
+  }
+  
+  .grid-sidebar div:nth-child(odd) {
+    background-color: black;
+  }
+
+  .style {
+    padding: 10%;
+  }

@@ -55,7 +55,7 @@ const particleOptions = {
 
 const particles = () => {
   return (
-    <Particles params={particleOptions} className="canvas particles" />
+    <Particles params={particleOptions} className="particles" />
   );
 };
 
