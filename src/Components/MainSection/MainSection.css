@@ -1,19 +1,19 @@
-.sidebar {
+.mainSection {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 20%;
+    right: 0;
+    width: 80%;
     height: 100vh; /* 100% of the viewport's height */
-    background: #191d2b;
-    border-right: 1px solid #4e2e2e;
-    z-index: 1;
+    background: #ffffff;
+    border-left: 1px solid #4e2e2e;
+    z-index: -1;
     transition: all 0.4s ease-out;
   }
 
-  .sideBarContainer {
+  .mainSectionContainer {
     display: flex;
     flex-direction: column;
     align-items: center; /* vertical adjustment */
     justify-content: center; /* horizontal adjustment */
   }
-
+  

@@ -1,14 +1,14 @@
 import React from "react";
+import MainSection from "../MainSection/MainSection";
 import SideBar from "../SideBar/SideBar";
-import Particles from "../Particles/Particles";
 import './Home.css'
 
 const Home = () =>{
     return (
         <div className = 'homeContainer'>
-
+            
             <SideBar />
-            <Particles />
+            <MainSection />
 
         </div>
     )
