@@ -1,13 +1,13 @@
 import React from "react";
 import './ProfilePicture.css'
 import profilePic from './profilePic.jpg';
-import Tilt from 'react-tilt';
+
 
 const ProfilePicture = () =>{
     return (
-        
-            <img className = "profilePic" alt = 'profile_pic' src = {profilePic}/>
-
+            <div className = "profile">
+                <img alt = 'profile_pic' src = {profilePic}/>
+            </div>
     )
 }
 

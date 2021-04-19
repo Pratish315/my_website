@@ -1,6 +1,8 @@
 import React from "react";
 import "./SideBar.css";
-import Button from "../Button/Button"
+import Button from "./Button/Button"
+import ProfilePicture from "./ProfilePicture/ProfilePicture";
+import Menu from "./Menu/Menu";
 
 const Sidebar = (props) => {
     
@@ -11,6 +13,8 @@ const Sidebar = (props) => {
     return (
         <nav className = {"sidebar " + sideBarStyle}>
             <Button isSideBarOpened={props.isSideBarOpened} clicked={props.clicked} />
+            <ProfilePicture />
+            <Menu clicked={props.clicked} />
         </nav>
     );
 

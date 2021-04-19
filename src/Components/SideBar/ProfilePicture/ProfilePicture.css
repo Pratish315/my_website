@@ -1,0 +1,36 @@
+.profile {
+  display: flex;
+  align-items: center; /* vertical position */
+  justify-content: center; /* horizontal position */
+  width: 100%; /* width of div for profile pic */
+  height: 35%; /* height of div for profile pic */
+  border-bottom: 3px solid #2e344e;
+  padding: 1px;
+}
+
+.profile img { /* applies to img tags that are in a div that has class .profile???????? */
+  width: 90%; /* width of the image */
+  height: 90%; /* height of the image */
+  border-radius: 20%; /* the higher the more round */
+  border: 3px solid #2e344e; /* border of the image */
+}
+
+
+@media (max-width: 500px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 50%; /* width of the image */
+    height: 90%; /* height of the image */
+  }
+}
+@media (max-width: 700px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 50%; /* width of the image */
+    height: 90%; /* height of the image */
+  }
+}
+@media (max-width: 1000px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 50%; /* width of the image */
+    height: 90%; /* height of the image */
+  }
+}

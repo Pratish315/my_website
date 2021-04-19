@@ -10,7 +10,7 @@ const Button = (props) => {
     
     return (
         <button onClick={props.clicked} className="hamburger">
-            <FontAwesomeIcon icon={iconshape} size = '1x' color = 'black' className ="menu-style" />
+            <FontAwesomeIcon icon={iconshape} size = '1x' color = 'black' className ="button-style" />
         </button>
     );
 
