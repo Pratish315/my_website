@@ -1,21 +1,15 @@
-import './App.css';
-import {React, Component} from 'react';
-import SideBar from './Components/SideBar/SideBar';
-import Content from './Components/Content/Content';
+import React, { Component } from "react";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./Components/Content/Layout";
 
 class App extends Component {
-  
-
-  render(){ 
+  render() {
     return (
-      <div className="grid">
-        <div> <SideBar /> </div>
-        <div> 2 </div>
-      </div>
+      <BrowserRouter>
+        <Layout />
+      </BrowserRouter>
     );
   }
-
-
 }
 
 export default App;

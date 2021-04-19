@@ -5,7 +5,8 @@ import Tilt from 'react-tilt';
 
 const ProfilePicture = () =>{
     return (
-        <img className = "profilePic" alt = 'profile_pic' src = {profilePic}/>
+        
+            <img className = "profilePic" alt = 'profile_pic' src = {profilePic}/>
 
     )
 }

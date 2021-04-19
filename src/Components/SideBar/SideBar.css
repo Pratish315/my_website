@@ -1,26 +1,52 @@
 .sidebar {
-    position: absolute; /* according to its 1st parent */
-    width: 20vw; /* 20% of the viewport's width */
-    height: 100vh; /* 100% of the viewport's height */
-    background: #fcfcfc;
-    border-right: 1px solid #597be9;
-    z-index: 1;
-    transition: all 0.4s ease-out;
-  }
- 
-  .grid-sidebar{
-    display: grid;
-    grid-template-rows: 40% 60%;
-  }
+  position: fixed;
+  top: 0; /* position from the top */
+  left: 0; /* position from the left */
+  width: 18vw; /* width of sidebar */
+  height: 100vh; /* height of sidebar */
+  background: #fcfcfc; /* colour of sidebar */
+  border-right: 3px solid #2e344e; /* border of sidebar */
+  z-index: 10; /* visibility of sidebar */
+  transition: all 0.4s ease-out;
+}
 
-  .grid-sidebar div:nth-child(even) {
-    background-color: blue;
+/* Closes the sidebar */
+@media (max-width: 500px) {
+  .Closesidebar {
+    width: 260px; /* width of sidebar */
+    transform: translateX(-260px); /* initially moved 260px left so all you see is the button */
   }
-  
-  .grid-sidebar div:nth-child(odd) {
-    background-color: black;
+}
+@media (max-width: 700px) {
+  .Closesidebar {
+    width: 260px;
+    transform: translateX(-260px);
   }
+}
+@media (max-width: 1000px) {
+  .Closesidebar {
+    width: 260px;
+    transform: translateX(-260px);
+  }
+}
 
-  .style {
-    padding: 10%;
+
+/* Opens the sidebar */
+@media (max-width: 500px) {
+  .Opensidebar {
+    width: 260px; /* width of sidebar */
+    transform: translateX(0); /* move it back to the right (0 = 0pixels from the left) */
   }
+}
+@media (max-width: 700px) {
+  .Opensidebar {
+    width: 260px;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1000px) {
+  .Opensidebar {
+    width: 260px;
+    transform: translateX(0px);
+  }
+}
