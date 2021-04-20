@@ -4,7 +4,7 @@
   left: 0; /* position from the left */
   width: 18vw; /* width of sidebar */
   height: 100vh; /* height of sidebar */
-  background: #fcfcfc; /* colour of sidebar */
+  /*background: linear-gradient(to right, rgb(197, 193, 193), rgb(17, 17, 17)); /* /* colour of sidebar */
   border-right: 3px solid #2e344e; /* border of sidebar */
   z-index: 10; /* visibility of sidebar */
   transition: all 0.4s ease-out;

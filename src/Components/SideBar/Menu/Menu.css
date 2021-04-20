@@ -1,6 +1,6 @@
 .list {
     width: 100%;
-    height: 65%;
+    height: 40%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     margin-top: 10px;
+    border-bottom: 3px solid #2e344e;
   }
   .list li {
     width: 100%;
@@ -15,7 +16,7 @@
     margin-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     list-style: none;
    
   }
