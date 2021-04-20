@@ -1,5 +1,6 @@
 {
   "name": "my_website",
+  "homepage": "https://pratish315.github.io/my_website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
