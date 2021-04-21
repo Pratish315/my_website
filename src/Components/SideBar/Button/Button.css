@@ -10,7 +10,7 @@
     height: 45px; /* height of button */
     background-color: #fcfcfc; /* colour of the button */
     font-size: 30px; /* size of button */
-    border: 3px solid #2e344e; /* border of button */
+    border: 3px solid #ffffff; /* border of button */
     display: none; /* hide the button */
   }
   .hamburger:focus {

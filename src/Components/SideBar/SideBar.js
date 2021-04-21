@@ -3,6 +3,7 @@ import "./SideBar.css";
 import Button from "./Button/Button"
 import ProfilePicture from "./ProfilePicture/ProfilePicture";
 import Menu from "./Menu/Menu";
+import "./SideBar.css";
 import BackgroundGenerator from "./BackgroundGenerator/BackgroundGenerator";
 
 

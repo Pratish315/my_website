@@ -11,7 +11,7 @@ const particleOptions = {
       },
     },
     color: {
-      value: "#43935366",
+      value: "#ffffff",
     },
     size: {
       value: 6,

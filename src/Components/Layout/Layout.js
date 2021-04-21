@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import SideBar from "../SideBar/SideBar";
+import Auxillary from "../hoc/Auxillary";
+import Home from "../Content/Home/Home";
 
 class Layout extends Component {
 
@@ -16,8 +18,13 @@ class Layout extends Component {
 
   /* rendering our layout */
   render() {
-    return (    
+    return (  
+      <Auxillary>
         <SideBar isSideBarOpened = {this.state.isSideBarOpened} clicked = {this.openSideBar} />
+        <Switch>
+          <Route exact path="/" component={Home} />
+        </Switch>  
+      </Auxillary>               
     );
   }
 
