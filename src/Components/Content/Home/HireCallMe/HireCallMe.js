@@ -3,7 +3,7 @@ import './HireCallMe.css'
 
 const HireCallMe = () =>{
     return (
-        <div>
+        <div className = "hire-call">
             <a href="mailto:pdullabh315@gmail.com" target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-primary hire-call" ><strong>Hire Me</strong></button>
             </a>
