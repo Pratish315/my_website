@@ -72,3 +72,9 @@
       margin-left: auto !important;
     }
   }
+
+  @media (max-width: 1500px) and (min-width: 1001px) {
+    .container {
+      margin-left: 19.5% !important;
+    }
+  }

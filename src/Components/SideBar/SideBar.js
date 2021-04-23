@@ -23,6 +23,7 @@ const Sidebar = (props) => {
             <Button isSideBarOpened={props.isSideBarOpened} clicked={props.clicked} />
             <ProfilePicture />
             <Menu clicked={props.clicked} />
+            <BackgroundGenerator color = {color} color2 = {color2} setColor = {setColor} setColor2 = {setColor2} />
         </nav>
     );
 

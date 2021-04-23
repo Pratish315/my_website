@@ -5,7 +5,7 @@ import "./Particles.css";
 const particleOptions = {
   particles: {
     number: {
-      value: 360,
+      value: 150,
       density: {
         enable: false,
       },
@@ -25,10 +25,11 @@ const particleOptions = {
       enable: false,
     },
     move: {
+      enable: true,
       random: true,
       speed: 2,
-      direction: "down",
-      out_mode: "bounce",
+      direction: "bottom",
+      out_mode: "out", /* can make bounce */
     },
   },
   interactivity: {

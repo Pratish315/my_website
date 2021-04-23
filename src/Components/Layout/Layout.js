@@ -23,6 +23,7 @@ class Layout extends Component {
         <SideBar isSideBarOpened = {this.state.isSideBarOpened} clicked = {this.openSideBar} />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/my_website" component={Home} />
         </Switch>  
       </Auxillary>               
     );

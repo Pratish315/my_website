@@ -10,8 +10,8 @@
 .profile img { /* applies to img tags that are in a div that has class .profile???????? */
   width: 170px; /* width of the image */
   height: 170px; /* height of the image */
-  border-radius: 20%; /* the higher the more round */
-  /* border of the image */
+  border-radius: 5%; /* the higher the more round */
+  border: 3px solid #ffffff;/* border of the image */
 }
 
 
