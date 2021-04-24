@@ -20,6 +20,7 @@
   height: 100%;
   width: 100%;
 }
+
 @media (max-width: 500px) {
   .about-details {
     flex-flow: column;
@@ -53,6 +54,23 @@
   }
 }
 @media (max-width: 1000px) {
+  .about-details {
+    flex-flow: column;
+    /* justify-content: space-around; */
+  }
+  .about-details-mydetails {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .about-details-myimage img {
+    width: 100%;
+  }
+  .about-details-textcolor {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
   .about-details {
     flex-flow: column;
     /* justify-content: space-around; */

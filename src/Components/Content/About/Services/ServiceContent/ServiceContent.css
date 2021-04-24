@@ -11,7 +11,7 @@
 }
 .services .services-box {
   display: grid;
-  place-items: center;
+  place-items: start;
   justify-content: center;
   padding: 12px;
   background-color: #191d2b;
@@ -26,7 +26,6 @@
 }
 .services-content span {
   font-size: 25px;
-  color: #037fff;
 }
 .services-content h5 {
   margin-top: 20px;

@@ -1,11 +1,13 @@
 import React from "react";
 import Auxillary from "../../../../../hoc/Auxillary";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faDev } from "@fortawesome/free-brands-svg-icons";
 
-const contenttwo = () => {
+const ServiceContentTwo = () => {
   return (
     <Auxillary>
       <span>
-        <i className="fas fa-code"></i>
+        <FontAwesomeIcon icon={faDev} size = '2x' color = 'white' className ='sm-icons' />
       </span>
       <h5>Full-Stack Developer</h5>
       <p>
@@ -21,4 +23,4 @@ const contenttwo = () => {
     </Auxillary>
   );
 };
-export default contenttwo;
+export default ServiceContentTwo;

@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "./AboutDetails/Header/Header";
 import AboutDetails from "./AboutDetails/AboutDetails";
 import Services from "./Services/Services";
 import { Spring } from "react-spring";

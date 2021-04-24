@@ -1,11 +1,14 @@
+import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 import Auxillary from "../../../../../hoc/Auxillary";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-const contentthree = () => {
+
+const ServiceContentThree = () => {
   return (
     <Auxillary>
       <span>
-        <i className="fas fa-database"></i>
+      <FontAwesomeIcon icon={faDesktop} size = '2x' color = 'white' className ='sm-icons' />
       </span>
       <h5>Software Engineer</h5>
       <p>
@@ -22,4 +25,4 @@ const contentthree = () => {
     </Auxillary>
   );
 };
-export default contentthree;
+export default ServiceContentThree;

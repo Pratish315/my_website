@@ -1,28 +1,28 @@
 import React from "react";
-import Contentone from "./Content1/ContentOne";
-import Contenttwo from "./Content2/ContentTwo";
-import Contentthree from "./Content3/ContentThree";
-import "./Contents.css";
+import ServiceContentOne from "./ServiceContent1/ServiceContent1";
+import ServiceContentTwo from "./ServiceContent2/ServiceContent2";
+import ServiceContentThree from "./ServiceContent3/ServiceContent3";
+import "./ServiceContent.css";
 
-const contents = () => {
+const ServiceContent = () => {
   return (
     <div className="services">
       <div className="services-box">
         <div className="services-content">
-          <Contentone />
+          <ServiceContentOne />
         </div>
       </div>
       <div className="services-box">
         <div className="services-content">
-          <Contenttwo />
+          <ServiceContentTwo />
         </div>
       </div>
       <div className="services-box">
         <div className="services-content">
-          <Contentthree />
+          <ServiceContentThree />
         </div>
       </div>
     </div>
   );
 };
-export default contents;
+export default ServiceContent;

@@ -10,7 +10,7 @@ const AboutDetails = () => {
       <div className = "about-details">
         <div className = "about-details-myimage">
           <a href={myimage}>
-            <img src={myimage} alt="Pratish Dullabh" width='500' height='450'/>
+            <img src={myimage} alt="Pratish Dullabh" />
           </a>
         </div>
         <div className = "about-details-mydetails">
