@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import SideBar from "../SideBar/SideBar";
 import Auxillary from "../hoc/Auxillary";
 import Home from "../Content/Home/Home";
+import About from "../Content/About/About"
 
 class Layout extends Component {
 
@@ -24,6 +25,7 @@ class Layout extends Component {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/my_website" component={Home} />
+          <Route exact path="/about" component={About} />
         </Switch>  
       </Auxillary>               
     );
