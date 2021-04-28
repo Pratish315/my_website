@@ -12,14 +12,14 @@ const ServiceContentThree = () => {
       </span>
       <h5>Software Engineer</h5>
       <p>
-        I have a strong passion for problem-solving and development. Studying Computer Science has really provided me with an extensive background of data structures, 
-        algorithms and time complexity. I also have experience with CE, CI, and CD.
-        I have the ability troubleshoot and debug software issues from large codebases of software written in Java/Python as those are my preferred languages.
+        Studying Computer Science has provided me with a great amount of insight on the roles that data structures, 
+        algorithms, and time complexities serve in problem-solving and software development. I also have past work-experience in the fields of CE, CI, and CD.
+        Having Java/Python as my preferred languages, I have the ability and resilience to troubleshoot and debug software issues from large codebases in these languages.
         <br></br>
         <br></br>
-        I can work closely with clients, plan & analyse their requirements, create clear documentation with technical specifications and develop easy-to-read 
-        code with comments. 
-        I have the capacity work closely with other individuals/teams, to research, create, test, deploy and maintain software programs.
+        Working closely with clients, planning & analyzing their requirements, creating clear but technical documentation, and developing easy-to-read 
+        code with comments is what I am good at. 
+        I have the capacity to work closely with other individuals/teams, research, create, test, deploy and maintain software programs.
 
       </p>
     </Auxillary>

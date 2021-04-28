@@ -12,12 +12,12 @@ const ServiceContentOne = () => {
       </span>
       <h5>Data Scientist</h5>
       <p>
-        Working as a Data Scientist has made managing Big Data more comfortable. I have been involved in ETL processes with hundreds of billions of records. 
-        I can use Mathematics, Statistics, Computer Science, and the Business Context to develop and deploy statistical models that are accurate and can scale. 
+        Working as a Data Scientist has equipped me with the necessary skills to manage Big Data more easily and effectively. 
+        My daily job entails solving business-problems using a combination of Statistics, Computer Science and Business knowledge to develop and deploy machine-learning/analytical models that are accurate and scalable. 
         <br></br>
         <br></br>
-        I have experience with Cloud Operations & DevOps - having my own models put into production using AWS, EMR/EC2, Lambda, spark, pandasUDF, BitBucket as well as other tools. 
-        I have adopted an Agile-mindset and Software Engineering Best Practices through my job.
+        I have experience with data pipelines, ETL processes, ML/Cloud Operations & DevOps - having my own models put into production using AWS EMR/EC2, Apache Spark, BitBucket, and quite a few other tools. 
+        Adopting an Agile-mindset and Software Engineering Best Practices throughout my job are essential.
       </p>
     </Auxillary>
   );

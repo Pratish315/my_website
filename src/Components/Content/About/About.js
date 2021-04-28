@@ -6,11 +6,8 @@ import "./About.css";
 
 const about = () => {
   return (
-    <Spring
-      from={{ opacity: 0 }}
-      to={{ opacity: 1 }}
-      config={{ delay: 500, duration: 500 }}
-    >
+    <div className = 'about-full-container'>
+    <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ delay: 500, duration: 500 }}>
       {(props) => (
         <div style={props} className="about-container">
           <div className="about-content">
@@ -20,6 +17,7 @@ const about = () => {
         </div>
       )}
     </Spring>
+    </div>
   );
 };
 export default about;
