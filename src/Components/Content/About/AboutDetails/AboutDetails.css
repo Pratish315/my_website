@@ -6,13 +6,16 @@
 .about-details-mydetails {
   margin-left: 20px;
 }
+
+.about-details-mydetails h2 {
+  margin-bottom: 25px;
+}
+
 .about-details-mydetails p {
-  color: #a4acc4;
+  color: #d7dae6;
   line-height: 30px;
 }
-.about-details-textcolor tr td {
-  color: #a4acc4;
-}
+
 .about-details-textcolor {
   width: 74% !important;
 }

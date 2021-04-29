@@ -11,8 +11,8 @@ const ServiceContentTwo = () => {
       </span>
       <h5>Full-Stack Developer</h5>
       <p>
-        I have experience in both Front End and Back End development of WebApps. However, I am stronger in Back End development and I tend enjoy it more.
-        On the front-end, I have worked and am most experienced with React. ExpressJS is what I have used most to create servers.
+        I have experience in both Front End and Back End development of WebApps. However, I am stronger in Back End development and I tend to enjoy it more.
+        On the front-end, I have worked with and am most experienced with React. To create servers, I have mostly used ExpressJS.
         With regards to databases, I have worked with both Relational and Non-Relational (NoSQL) databases. 
         <br></br>
         <br></br>

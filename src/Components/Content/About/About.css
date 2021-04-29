@@ -4,9 +4,8 @@
   left: 0; /* position from the left */
   width: 100vw; /* width of sidebar */
   min-height: 100vh; /* height of sidebar */
-  /*background: linear-gradient(to right, rgb(197, 193, 193), rgb(17, 17, 17)); /* /* colour of sidebar */
-  background: cyan;
-  border: cyan 1px solid;
+  background: linear-gradient(to right, rgb(4, 5, 5), rgb(14, 9, 9)); /* /* colour of sidebar */
+  border: rgb(10, 10, 10) 1px solid;
   z-index: -20;
 }
 

@@ -17,7 +17,7 @@ const ServiceContentOne = () => {
         <br></br>
         <br></br>
         I have experience with data pipelines, ETL processes, ML/Cloud Operations & DevOps - having my own models put into production using AWS EMR/EC2, Apache Spark, BitBucket, and quite a few other tools. 
-        Adopting an Agile-mindset and Software Engineering Best Practices throughout my job are essential.
+        Adopting Software Engineering Best Practices and an Agile-mindset throughout my job is essential.
       </p>
     </Auxillary>
   );
