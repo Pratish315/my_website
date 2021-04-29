@@ -16,8 +16,8 @@ const ServiceContentOne = () => {
         My daily job entails solving business-problems using a combination of Statistics, Computer Science and Business knowledge to develop and deploy machine-learning/analytical models that are accurate and scalable. 
         <br></br>
         <br></br>
-        I have experience with data pipelines, ETL processes, ML/Cloud Operations & DevOps - having my own models put into production using AWS EMR/EC2, Apache Spark, BitBucket, and quite a few other tools. 
-        Adopting Software Engineering Best Practices and an Agile-mindset throughout my job is essential.
+        I have experience with data pipelines, ETL processes, ML/Cloud Operations & DevOps - having my own models put into production using AWS EMR/EC2, Apache Hadoop, Apache Spark, BitBucket, and quite a few other tools. 
+        Adopting Software Engineering Best Practices and an Agile-mindset throughout my job is very important.
       </p>
     </Auxillary>
   );

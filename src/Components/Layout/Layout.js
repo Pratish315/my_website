@@ -4,6 +4,7 @@ import SideBar from "../SideBar/SideBar";
 import Auxillary from "../hoc/Auxillary";
 import Home from "../Content/Home/Home";
 import About from "../Content/About/About"
+import Resume from "../Content/Resume/Resume";
 
 class Layout extends Component {
 
@@ -26,6 +27,7 @@ class Layout extends Component {
           <Route exact path="/" component={Home} />
           <Route exact path="/my_website" component={Home} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/resume" component={Resume} />
         </Switch>  
       </Auxillary>               
     );

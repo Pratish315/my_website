@@ -4,7 +4,7 @@ import Services from "./Services/Services";
 import { Spring } from "react-spring";
 import "./About.css";
 
-const about = () => {
+const About = () => {
   return (
     <div className = 'about-full-container'>
     <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ delay: 500, duration: 500 }}>
@@ -20,4 +20,4 @@ const about = () => {
     </div>
   );
 };
-export default about;
+export default About;
