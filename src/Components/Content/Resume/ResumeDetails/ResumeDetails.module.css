@@ -8,6 +8,7 @@
   grid-gap: 10px;
   grid-auto-flow: dense;
   margin-bottom: 50px;
+  padding-right: 2%;
 }
 .education_expertise .box {
   background-color: #191d2b;
@@ -38,7 +39,8 @@
 
 .content p {
   margin-top: 20px;
-  color: #a4acc4;
+  color: #aeb6ce;
+  margin-left: 3%;
 }
 @media (max-width: 500px) {
   .education_expertise {
