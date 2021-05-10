@@ -1,4 +1,4 @@
-.resume_full_container {
+.projects_full_container {
   position: absolute;
   top: 0; /* position from the top */
   left: 0; /* position from the left */
@@ -11,17 +11,16 @@
 
 .content {
   width: 100%;
-  margin-top: 35px;
+  margin-top: 45px;
   color: rgb(233, 92, 92);
 }
-.resume {
+.projetcs {
   position: relative;
 }
-.resume h2 {
+.projetcs h2 {
   font-weight: 700;
-
 }
-.resume h2::before {
+.projetcs h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -32,7 +31,7 @@
   background: rgba(3, 127, 255, 0.3);
   border-radius: 100px;
 }
-.resume h2::after {
+.projetcs h2::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -41,7 +40,7 @@
   height: 5px;
   background: #037fff;
 }
-.resume span {
+.projetcs span {
   position: absolute;
   left: 0;
   top: -19%;
@@ -54,14 +53,12 @@
 
 .container {
   width: 80% !important;
-  margin-left: 19.5% !important;
-  padding-top: 40px;
+  margin-left: 18.5% !important;
+  padding: 1%;
+  padding-right: 0.01%;
+  padding-top: 30px;
+  padding-bottom: 3%;
 }
-
-.downloadCV{
-  padding-top: 5%;
-}
-
 @media (max-width: 500px) {
   .container {
     width: 100% !important;
@@ -69,14 +66,12 @@
     padding-left: 15px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    padding-top: 65px;
+    padding-top: 55px;
+    padding-bottom: 15%;
   }
-  .resume span {
-    font-size: 2.7rem;
+  .projetcs span {
+    font-size: 2.5rem;
     top: 46%;
-  }
-  .downloadCV{
-    padding-top: 15%;
   }
 }
 @media (max-width: 700px) {
@@ -86,14 +81,12 @@
     padding-left: 15px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    padding-top: 65px;
+    padding-top: 55px;
+    padding-bottom: 15%;
   }
-  .resume span {
-    font-size: 2.7rem;
+  .projetcs span {
+    font-size: 2.5rem;
     top: 46%;
-  }
-  .downloadCV{
-    padding-top: 15%;
   }
 }
 @media (max-width: 1000px) {
@@ -103,13 +96,11 @@
     padding-left: 15px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    padding-top: 65px;
+    padding-top: 55px;
+    padding-bottom: 15%;
   }
-  .resume span {
-    font-size: 2.7rem;
+  .projetcs span {
+    font-size: 2.5rem;
     top: 46%;
-  }
-  .downloadCV{
-    padding-top: 15%;
   }
 }

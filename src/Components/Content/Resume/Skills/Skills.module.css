@@ -3,7 +3,6 @@
 }
 .skills h2 {
   font-weight: 700;
-  text-transform: uppercase;
 }
 .skills h2::before {
   content: "";

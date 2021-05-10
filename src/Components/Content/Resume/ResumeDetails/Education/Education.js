@@ -19,7 +19,7 @@ const education = () => {
       <h5>Acedemic Projects</h5>
       <h6>AutoStar: SEMI-AUTOMATED DATA WAREHOUSE CONSTRUCTION</h6>
       <p>This was my Honours project; I worked in a team of 2 and I was responsible for semi-automatically creating a star-schema from differently structured source repositories.</p>
-      <p>Java was the core language used for this project. I used it to semi-automatically develop the star-schema from both SQL and MongoDB databases. I also defined the ETL process by scripting the entire data pipeline from the source repository to the warehouse containing the generated star-schema.</p>
+      <p>I used Java to semi-automatically develop the star-schema using both SQL and MongoDB databases. I also defined the ETL process by scripting the entire data pipeline - from the source repositories to the warehouses containing the generated star-schemas.</p>
       <h6>Bid4Cows: an auctioning web application</h6>
       <p>This was my Capstone project; our team built a dynamic web application that allows users to buy and sell their cattle in an auction-based environment. </p>
       <p>I worked in a team of 3, I was responsible for the backend and the tools I used were Java, JavaServer Pages, JDBC and SQL.</p>

@@ -3,7 +3,6 @@
 }
 .services-header h2 {
   font-weight: 700;
-  text-transform: uppercase;
 }
 .services-header h2::before {
   content: "";

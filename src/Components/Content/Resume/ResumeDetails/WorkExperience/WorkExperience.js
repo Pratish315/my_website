@@ -17,7 +17,7 @@ const expertise = () => {
       </p>
       <p>Another and more recent project of mine consisted of creating definitions for whether customers have churned or not from categories. 
       Having thousands of categories with each of them having their own lifecycle, I decided to generate dynamic definitions for each category using clustering. 
-      The predictive aspect of this project involved developing a classification model to accurately predict the likelihood of a customer churning within a variable time frame from now. After demoing the results and achieving an accuracy of +-80%, clients were pleased, and the model was productionalized.
+      The predictive aspect of this project involved developing a classification model to accurately predict the likelihood of a customer churning within a variable time frame from now. After demoing the results and achieving an accuracy of +-87%, clients were pleased, and the model was productionalized.
       </p>      
       <h6>Data Science Intern, Shoprite Holdings (Cape Town, SA: Feb. 03, 2020 – Dec. 31, 2020)</h6>
       <p>
