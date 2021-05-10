@@ -1,5 +1,5 @@
 .education_expertise {
-  margin-top: 85px;
+  margin-top: 45px;
   position: relative;
   width: 100%;
   display: grid;
@@ -39,8 +39,11 @@
 
 .content p {
   margin-top: 20px;
-  color: #aeb6ce;
+  color: #cfd5e6;
   margin-left: 3%;
+  display: list-item;         
+  list-style-type: disc;      
+  list-style-position: inside;
 }
 @media (max-width: 500px) {
   .education_expertise {

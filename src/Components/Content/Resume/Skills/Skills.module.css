@@ -52,6 +52,7 @@
 .content {
   position: relative;
   padding: 12px;
+  padding-right: 5%;
   color: antiquewhite;
 }
 
@@ -62,7 +63,7 @@
 }
 
 .content p {
-  color: #a4acc4;
+  color: #f17b72;
 }
 @media (max-width: 500px) {
   .skills_content {

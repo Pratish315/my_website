@@ -56,6 +56,11 @@
   width: 80% !important;
   margin-left: 19.5% !important;
 }
+
+.downloadCV{
+  padding-top: 5%;
+}
+
 @media (max-width: 500px) {
   .container {
     width: 100% !important;
