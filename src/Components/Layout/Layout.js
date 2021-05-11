@@ -6,7 +6,6 @@ import Home from "../Content/Home/Home";
 import About from "../Content/About/About"
 import Resume from "../Content/Resume/Resume";
 import Projects from "../Content/Projects/Projects"
-import ContactForm from "../Content/Contact/Form/ContactForm"
 import Contact from "../Content/Contact/Contact";
 
 class Layout extends Component {

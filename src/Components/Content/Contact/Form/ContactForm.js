@@ -2,47 +2,48 @@ import React from "react";
 import Classes from "./ContactForm.module.css";
 
 const ContactForm = (props) => {
-  const formStyle = "form-control" + " " + Classes.input;
 
   return (
-    <form method="post" /*onSubmit={props.handleSubmit}*/>
+    <form method="post" onSubmit={props.handleSubmit}>
       <div className="form-group">
-        <label>Enter Your Name</label>
+        <label className = {Classes.label_astrix}>Enter Your Name</label>
         <input
           type="text"
-          className={formStyle}
+          className={"form-control " + Classes.input }
           name="name"
-          /*onChange={props.handleChange}*/
-          placeholder="Enter your name here"
+          onChange={props.handleChange}
+          placeholder="Enter your name here "
         />
-        <span style={{ color: "red" }}>nameerrorsubmit</span>
-        <span style={{ color: "red" }}>nameerrorfocus</span>
       </div>
       <div className="form-group">
-        <label>Enter Your Email</label>
+        <label className = {Classes.label_astrix}>Enter Your Email</label>
         <input
           type="text"
-          className={formStyle}
+          className={"form-control " + Classes.input }
           name="email"
-          /*onChange={props.handleChange}*/
-          placeholder="Enter your email address here"
+          onChange={props.handleChange}
+          placeholder="Enter your email address here "
         />
-        <span style={{ color: "red" }}>emailerrorsubmit</span>
-        <span style={{ color: "red" }}>emailerrorfocus</span>
+        <span style={{ color: "red" }}>{props.errors.emailError}</span>
       </div>
       <div className="form-group">
         <label>Enter Your Number</label>
         <input
-          type="text"
-          className={formStyle}
+          type="number"
+          className={"form-control " + Classes.input }
           name="phone"
-          /*onChange={props.handleChange}*/
-          placeholder="Enter your mobile number here"
+          onChange={props.handleChange}
+          placeholder="Enter your mobile number here: +27 81 633 7129"
         />
-        <span style={{ color: "red" }}>phoneerrorsubmit</span>
-        <span style={{ color: "red" }}>phoneerrorfocus</span>
       </div>
-      {props.buttondisabled}
+      <div className="form-group">
+        <label>Enter Your Message</label>
+        <textarea onChange={props.handleChange} className={"form-control " + Classes.input } name="message"  placeholder="Enter your message here" cols="50" rows="5"></textarea>
+      </div>      
+      <button style = {{marginBottom : "3%", marginTop : "1%"}} type="submit" className="btn btn-primary">
+        Submit
+      </button>
+      <span style={{ color: "red", marginLeft : "15px" }}>{props.mainError}</span>
     </form>
   );
 };

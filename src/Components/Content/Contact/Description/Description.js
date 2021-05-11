@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
         <div className = {DescriptionStyle.style}>
-            <p>Please enter your details & message below, and I will get back to you ASAP.</p>
+            <p>Please enter your details/enquiries below, and I will get back to you ASAP.</p>
         </div>
     );
   }
