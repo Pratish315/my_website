@@ -6,6 +6,8 @@ import Home from "../Content/Home/Home";
 import About from "../Content/About/About"
 import Resume from "../Content/Resume/Resume";
 import Projects from "../Content/Projects/Projects"
+import ContactForm from "../Content/Contact/Form/ContactForm"
+import Contact from "../Content/Contact/Contact";
 
 class Layout extends Component {
 
@@ -30,6 +32,7 @@ class Layout extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>  
       </Auxillary>               
     );

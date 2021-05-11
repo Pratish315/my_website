@@ -1,7 +1,11 @@
-.about-header {
+.contact_header {
   position: relative;
 }
-.about-header h2::before {
+
+.contact_header h2 {
+  color: rgb(233, 92, 92);
+}
+.contact_header h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -12,7 +16,7 @@
   background: rgba(3, 127, 255, 0.3);
   border-radius: 100px;
 }
-.about-header h2::after {
+.contact_header h2::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -21,7 +25,7 @@
   height: 5px;
   background: #037fff;
 }
-.about-header span {
+.contact_header span {
   position: absolute;
   left: 0;
   top: -19%;
@@ -33,19 +37,19 @@
 }
 
 @media (max-width: 500px) {
-  .about-header span {
+  .contact_header span {
     font-size: 3rem;
     top: 46%;
   }
 }
 @media (max-width: 700px) {
-  .about-header span {
+  .contact_header span {
     font-size: 3rem;
     top: 46%;
   }
 }
 @media (max-width: 1000px) {
-  .about-header span {
+  .contact_header span {
     font-size: 3rem;
     top: 46%;
   }
