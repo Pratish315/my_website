@@ -4,7 +4,9 @@ import { Spring } from "react-spring";
 import Classes from "./Contact.module.css";
 import Header from "../Contact/Header/Header";
 import Description from "../Contact/Description/Description"
-import FirebaseInstance from "./Firebase/FirebaseInstance"
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.min.css";
+import fireBase from "./Firebase/Firebase"
 
 class Contact extends Component {
 
@@ -19,8 +21,10 @@ class Contact extends Component {
         emailError: "",
       },
       mainError: "",
+      submitButton: (<button type="submit" className="btn btn-primary">Submit</button>),
     };
   }
+
 
 /* ######################################################### */  
   handleChange = event => {
@@ -69,8 +73,6 @@ class Contact extends Component {
       isValid = true;
     }    
 
-    
-    console.log(isValid)
     if (isValid === true) {
       let data = {
         name: this.state.name,
@@ -78,7 +80,9 @@ class Contact extends Component {
         phone: this.state.phone,
         message: this.state.message
       }; 
-      FirebaseInstance.post("/contact.json", data)
+      
+      fireBase.collection("Users").add(data).then((res) => {toast.success("Thank you for contacting me, I will get back to you soon :)", {position: toast.POSITION.BOTTOM_CENTER})}).catch((error) => {console.log(error)});
+      this.setState({submitButton : (<button disabled type="submit" className="btn btn-primary">Submit</button>)})
   }
 
 }
@@ -87,6 +91,7 @@ class Contact extends Component {
 
 
   render() {
+
     return (
         <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ delay: 500, duration: 500 }}>
           {(props) => (
@@ -101,7 +106,9 @@ class Contact extends Component {
                     handleSubmit = {this.handleSubmit}
                     errors = {this.state.errors}
                     mainError = {this.state.mainError}
+                    submitButton = {this.state.submitButton}
                   />
+                  <ToastContainer />
                 </div>
               </div>
             </div>
