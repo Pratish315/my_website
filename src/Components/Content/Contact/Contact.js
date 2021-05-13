@@ -6,7 +6,7 @@ import Header from "../Contact/Header/Header";
 import Description from "../Contact/Description/Description"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import fireBase from "./Firebase/Firebase"
+import fireBase from "./DataBase/FireBase"
 
 class Contact extends Component {
 
@@ -33,6 +33,7 @@ class Contact extends Component {
     const errors = this.state.errors;
   
     this.setState({[inputName]: inputValue});
+    this.setState({submitButton : (<button type="submit" className="btn btn-primary">Submit</button>)})
 
     switch (inputName) {
       case "email":

@@ -39,8 +39,10 @@ const ContactForm = (props) => {
       <div className="form-group">
         <label>Enter Your Message</label>
         <textarea onChange={props.handleChange} className={"form-control " + Classes.input } name="message"  placeholder="Enter your message here" cols="50" rows="5"></textarea>
-      </div>      
+      </div>
+      <div className = {Classes.submitButton}>
       {props.submitButton}
+      </div>      
       <span style={{ color: "red", marginLeft : "15px" }}>{props.mainError}</span>
     </form>
   );

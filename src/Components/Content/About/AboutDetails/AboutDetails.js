@@ -18,7 +18,7 @@ const AboutDetails = () => {
             Description:
           </h2>
           <p>
-          Since a young boy I was fascinated about computers and how they work. Computers is what I do, and I do what I love, every single day! I am continuously driven
+          Since a young boy I was fascinated with computers and how they work. Computers is what I do, and I do what I love, every single day! I am continuously driven
           to solve problems, whilst simultaneously expanding my knowledge. For me, it is a privilege to be given the opportunity
           to do this within my employer's environment.
           <br></br>
