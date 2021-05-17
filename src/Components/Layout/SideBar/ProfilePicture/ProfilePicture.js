@@ -1,11 +1,11 @@
 import React from "react";
-import './ProfilePicture.css'
+import ProfilePictureStyle from './ProfilePicture.module.css'
 import profilePic from '../../../../assets/profilePic.PNG';
 
 
 const ProfilePicture = () =>{
     return (
-            <div className = "profile">
+            <div className = {ProfilePictureStyle.profile}>
                 <img alt = 'profile_pic' src = {profilePic}/>
             </div>
     )

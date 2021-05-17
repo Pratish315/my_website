@@ -2,15 +2,15 @@ import React from "react";
 import AboutDetails from "./AboutDetails/AboutDetails";
 import Services from "./Services/Services";
 import { Spring } from "react-spring";
-import "./About.css";
+import AboutStyle from "./About.module.css";
 
 const About = () => {
   return (
-    <div className = 'about-full-container'>
+    <div className = {AboutStyle.about_full_container}>
     <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ delay: 500, duration: 500 }}>
       {(props) => (
-        <div style={props} className="about-container">
-          <div className="about-content">
+        <div style={props} className={AboutStyle.about_container}>
+          <div className={AboutStyle.about_content}>
             <AboutDetails />
             <Services />
           </div>

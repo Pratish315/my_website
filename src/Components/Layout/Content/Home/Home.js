@@ -2,7 +2,7 @@ import React from "react";
 import Particles from "./Particles/Particles";
 import Auxillary from "../../../hoc/Auxillary";
 import SocialMediaIcons from "./SocialMediaIcons/SocialMediaIcons"
-import "./Home.css";
+import HomeStyle from "./Home.module.css";
 import HireCallMe from "./HireCallMe/HireCallMe";
 import Title from "./Title/Title";
 
@@ -10,11 +10,11 @@ const home = () => {
   return (
     <Auxillary>
       <Particles />
-      <div className = "container">
-        <div className ="box">
-          <div className ="content">
+      <div className = {HomeStyle.container}>
+        <div className ={HomeStyle.box}>
+          <div className ={HomeStyle.content}>
             <Title />
-            <div className = "social_media_icons">
+            <div className = {HomeStyle.social_media_icons}>
               <SocialMediaIcons />
             </div>
             <HireCallMe />

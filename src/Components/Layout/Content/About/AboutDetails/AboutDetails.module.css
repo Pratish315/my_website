@@ -1,104 +1,104 @@
-.about-details {
+.about_details {
   display: flex;
   margin-top: 80px;
   padding-right: 1%;
 }
-.about-details-mydetails {
+.about_details_mydetails {
   margin-left: 20px;
 }
 
-.about-details-mydetails h2 {
+.about_details_mydetails h2 {
   margin-bottom: 25px;
 }
 
-.about-details-mydetails p {
+.about_details_mydetails p {
   color: #d7dae6;
   line-height: 30px;
 }
 
-.about-details-textcolor {
+.about_details_textcolor {
   width: 74% !important;
 }
-.about-details-myimage {
+.about_details_myimage {
   height: 100%;
   width: 100%;
 }
 
 @media (max-width: 500px) {
-  .about-details {
+  .about_details {
     flex-flow: column;
     /* justify-content: space-around; */
   }
-  .about-details-mydetails {
+  .about_details_mydetails {
     margin-left: 0px;
     margin-top: 20px;
   }
-  .about-details-myimage img {
+  .about_details_myimage img {
     width: 100%;
   }
-  .about-details-textcolor {
+  .about_details_textcolor {
     width: 100% !important;
   }
 }
 @media (max-width: 700px) {
-  .about-details {
+  .about_details {
     flex-flow: column;
     /* justify-content: space-around; */
   }
-  .about-details-mydetails {
+  .about_details_mydetails {
     margin-left: 0px;
     margin-top: 20px;
   }
-  .about-details-myimage img {
+  .about_details_myimage img {
     width: 100%;
   }
-  .about-details-textcolor {
+  .about_details_textcolor {
     width: 100% !important;
   }
 }
 @media (max-width: 1000px) {
-  .about-details {
+  .about_details {
     flex-flow: column;
     /* justify-content: space-around; */
   }
-  .about-details-mydetails {
+  .about_details_mydetails {
     margin-left: 0px;
     margin-top: 20px;
   }
-  .about-details-myimage img {
+  .about_details_myimage img {
     width: 100%;
   }
-  .about-details-textcolor {
+  .about_details_textcolor {
     width: 100%;
   }
 }
 
 @media (max-width: 1100px) {
-  .about-details {
+  .about_details {
     flex-flow: column;
     /* justify-content: space-around; */
   }
-  .about-details-mydetails {
+  .about_details_mydetails {
     margin-left: 0px;
     margin-top: 20px;
   }
-  .about-details-myimage img {
+  .about_details_myimage img {
     width: 100%;
   }
-  .about-details-textcolor {
+  .about_details_textcolor {
     width: 100%;
   }
 }
 
 @media (max-height: 700px) {
-  .about-details-myimage img {
+  .about_details_myimage img {
     width: 400px;
     height: 500px;
   }
 }
 
 @media (max-height: 700px) and (max-width: 1500px){
-  .about-details {
+  .about_details {
     width: 98.5%;
   }  
 }

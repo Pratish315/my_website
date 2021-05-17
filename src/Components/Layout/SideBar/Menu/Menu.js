@@ -1,6 +1,6 @@
   
 import React, { Component } from "react";
-import "./Menu.css";
+import MenuStyle from "./Menu.module.css";
 import { NavLink } from "react-router-dom";
 
 class Menu extends Component {
@@ -15,11 +15,11 @@ class Menu extends Component {
   };
   render() {
     return (
-      <ul className="list">
+      <ul className={MenuStyle.list}>
         {this.state.menu.map((menuItem) => {
           return (
             <li key={menuItem.id}>
-              <NavLink onClick={this.props.clicked} exact to={menuItem.path} activeClassName="active">
+              <NavLink onClick={this.props.clicked} exact to={menuItem.path} activeClassName={MenuStyle.active}>
                 {menuItem.name}
               </NavLink>
             </li>

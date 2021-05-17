@@ -1,9 +1,9 @@
 import React from "react";
-import "./Header.css";
+import HeaderStyle from "./Header.module.css";
 
 const Header = () => {
   return (
-    <div className = "about-header">
+    <div className = {HeaderStyle.about_header}>
       <h2>About</h2>
       <span>About Me</span>
     </div>

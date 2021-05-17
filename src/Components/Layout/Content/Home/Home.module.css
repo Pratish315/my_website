@@ -1,5 +1,5 @@
 .container {
-  margin-left: 30% !important;
+  margin-left: 19% !important;
   height: 100vh;
 }
 
@@ -29,6 +29,7 @@
   .social_media_icons a {
     display: inline-flex;
     margin: 20px;
+    margin-top: 50px;
     align-items: center;
     justify-content: center;
   }

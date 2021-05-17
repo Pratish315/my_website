@@ -1,4 +1,4 @@
-.button-style{
+.button_style{
   margin-bottom: 4px; /* the menu-icon needed to be shifted up */
 }
 
@@ -8,7 +8,6 @@
     left: 100%; /* position to the left */
     width: 45px; /* width of button */
     height: 45px; /* height of button */
-    background-color: #fcfcfc; /* colour of the button */
     font-size: 30px; /* size of button */
     border: 2px solid rgb(162, 255, 182); /* border of button */
     display: none; /* hide the button */

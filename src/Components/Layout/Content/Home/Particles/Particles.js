@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "react-particles-js";
-import "./Particles.css";
+import ParticlesStyle from "./Particles.module.css";
 
 const particleOptions = {
   particles: {
@@ -56,7 +56,7 @@ const particleOptions = {
 
 const particles = () => {
   return (
-    <Particles params={particleOptions} className="particles" />
+    <Particles params={particleOptions} className={ParticlesStyle.particles} />
   );
 };
 

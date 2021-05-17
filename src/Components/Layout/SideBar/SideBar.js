@@ -1,9 +1,8 @@
 import React from "react";
-import "./SideBar.css";
 import Button from "./Button/Button"
 import ProfilePicture from "./ProfilePicture/ProfilePicture";
 import Menu from "./Menu/Menu";
-import "./SideBar.css";
+import SideBarStyle from "./SideBar.module.css";
 import BackgroundGenerator from "./BackgroundGenerator/BackgroundGenerator";
 
 
@@ -11,7 +10,7 @@ import BackgroundGenerator from "./BackgroundGenerator/BackgroundGenerator";
 const Sidebar = (props) => {
     
     /* style of sidebar depends on whether its opened or not */
-    const sideBarStyle = props.isSideBarOpened ? "Opensidebar" : "Closesidebar"
+    const sideBarStyle = props.isSideBarOpened ? SideBarStyle.Opensidebar : SideBarStyle.Closesidebar
 
     /* variables for background generator */
     const [color, setColor] = React.useState("#C5C1C1");
@@ -19,8 +18,8 @@ const Sidebar = (props) => {
 
     /* sideBarStyle is applied to all components in the nav */
     return (
-        <nav className = {"sidebar " + sideBarStyle} style = {{background: "linear-gradient(to right, "+color+", "+color2+")"}}>
-            <Button isSideBarOpened={props.isSideBarOpened} clicked={props.clicked} />
+        <nav className = {SideBarStyle.sidebar + " " + sideBarStyle} style = {{background: "linear-gradient(to right, "+color+", "+color2+")"}}>
+            <Button isSideBarOpened={props.isSideBarOpened} clicked={props.clicked} color = {color} color2 = {color2} />
             <ProfilePicture />
             <Menu clicked={props.clicked} />
             <BackgroundGenerator color = {color} color2 = {color2} setColor = {setColor} setColor2 = {setColor2} />

@@ -1,10 +1,10 @@
-.services-header {
+.services_header {
   position: relative;
 }
-.services-header h2 {
+.services_header h2 {
   font-weight: 700;
 }
-.services-header h2::before {
+.services_header h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -15,7 +15,7 @@
   background: rgba(3, 127, 255, 0.3);
   border-radius: 100px;
 }
-.services-header h2::after {
+.services_header h2::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -24,7 +24,7 @@
   height: 5px;
   background: #037fff;
 }
-.services-header span {
+.services_header span {
   position: absolute;
   left: 0;
   top: -19%;
@@ -36,19 +36,19 @@
 }
 
 @media (max-width: 500px) {
-  .services-header span {
+  .services_header span {
     font-size: 3rem;
     top: 46%;
   }
 }
 @media (max-width: 700px) {
-  .services-header span {
+  .services_header span {
     font-size: 3rem;
     top: 46%;
   }
 }
 @media (max-width: 1000px) {
-  .services-header span {
+  .services_header span {
     font-size: 3rem;
     top: 46%;
   }

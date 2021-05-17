@@ -1,19 +1,19 @@
 import React from "react";
 import myimage from "../../../../../assets/me.JPG";
-import "./AboutDetails.css";
+import AboutDetailsStyle from "./AboutDetails.module.css";
 import Header from "./Header/Header";
 
 const AboutDetails = () => {
   return (
     <div>
       <Header />
-      <div className = "about-details">
-        <div className = "about-details-myimage">
+      <div className = {AboutDetailsStyle.about_details}>
+        <div className = {AboutDetailsStyle.about_details_myimage}>
           <a href={myimage}>
             <img src={myimage} alt="Pratish Dullabh" />
           </a>
         </div>
-        <div className = "about-details-mydetails">
+        <div className = {AboutDetailsStyle.about_details_mydetails}>
           <h2>
             Description:
           </h2>
