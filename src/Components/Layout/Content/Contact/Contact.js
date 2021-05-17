@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ContactForm from "./Form/ContactForm";
-import { Spring } from "react-spring";
+import { Spring, animated } from "react-spring";
 import Classes from "./Contact.module.css";
 import Header from "../Contact/Header/Header";
 import Description from "../Contact/Description/Description"
@@ -21,7 +21,7 @@ class Contact extends Component {
         emailError: "",
       },
       mainError: "",
-      submitButton: (<button type="submit" className="btn btn-primary">Submit</button>),
+      submitButton: (<button type="submit" className={"btn btn-primary "}>Submit</button>),
     };
   }
 
@@ -33,7 +33,6 @@ class Contact extends Component {
     const errors = this.state.errors;
   
     this.setState({[inputName]: inputValue});
-    this.setState({submitButton : (<button type="submit" className="btn btn-primary">Submit</button>)})
 
     switch (inputName) {
       case "email":
@@ -57,7 +56,7 @@ class Contact extends Component {
 /* ######################################################### */  
   handleSubmit = (event) => {
     event.preventDefault();
-
+    
     const { name, email} = this.state;
     var isValid = false
 
@@ -94,10 +93,10 @@ class Contact extends Component {
   render() {
 
     return (
-        <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ delay: 500, duration: 500 }}>
+        <Spring from={{ opacity: 0 }} to={{ opacity: 1 }} config={{ delay: 100, duration: 900 }}>
           {(props) => (
-            <div className = {Classes.contact_full_container}>
-            <div style={props} className={Classes.container}>
+            <animated.div style={props} className = {Classes.contact_full_container}>
+            <div className={Classes.container}>
               <div className={Classes.content}>
                 <Header />
                 <Description />
@@ -113,7 +112,7 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
-            </div>
+            </animated.div>
           )}
         </Spring>
     );
