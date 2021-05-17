@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Auxillary from "../../../hoc/Auxillary";
+import Auxillary from "../../../../hoc/Auxillary";
 import { Progress } from "react-sweet-progress";
 import "react-sweet-progress/lib/style.css";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Auxillary from "../../../../../hoc/Auxillary";
+import Auxillary from "../../../../../../hoc/Auxillary";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faDev } from "@fortawesome/free-brands-svg-icons";
 

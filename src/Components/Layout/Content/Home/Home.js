@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "./Particles/Particles";
-import Auxillary from "../../hoc/Auxillary";
+import Auxillary from "../../../hoc/Auxillary";
 import SocialMediaIcons from "./SocialMediaIcons/SocialMediaIcons"
 import "./Home.css";
 import HireCallMe from "./HireCallMe/HireCallMe";

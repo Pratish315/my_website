@@ -1,5 +1,5 @@
 import React from "react";
-import myimage from "./me.JPG";
+import myimage from "../../../../../assets/me.JPG";
 import "./AboutDetails.css";
 import Header from "./Header/Header";
 

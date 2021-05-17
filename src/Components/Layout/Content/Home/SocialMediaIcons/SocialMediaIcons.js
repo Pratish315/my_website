@@ -2,7 +2,7 @@ import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFacebook, faGithub, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import './SocialMediaIcons.css'
-import Auxillary from "../../../hoc/Auxillary"
+import Auxillary from "../../../../hoc/Auxillary"
 
 const SocialMediaIcons = () =>{
     return (

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-import SideBar from "../SideBar/SideBar";
+import SideBar from "./SideBar/SideBar";
 import Auxillary from "../hoc/Auxillary";
-import Home from "../Content/Home/Home";
-import About from "../Content/About/About"
-import Resume from "../Content/Resume/Resume";
-import Projects from "../Content/Projects/Projects"
-import Contact from "../Content/Contact/Contact";
+import Home from "./Content/Home/Home";
+import About from "./Content/About/About"
+import Resume from "./Content/Resume/Resume";
+import Projects from "./Content/Projects/Projects"
+import Contact from "./Content/Contact/Contact";
 
 class Layout extends Component {
 
