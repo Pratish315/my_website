@@ -42,8 +42,8 @@ const ContactForm = (props) => {
       </div>
       <div className = {Classes.submitButton}>
       {props.submitButton}
-      </div>      
       <span style={{ color: "red", marginLeft : "15px" }}>{props.mainError}</span>
+      </div>      
     </form>
   );
 };

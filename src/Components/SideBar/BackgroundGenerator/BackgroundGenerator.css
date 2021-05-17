@@ -4,16 +4,59 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: row;    
+    flex-direction: column;    
     margin: 0;
     margin-top: 20px;
     padding: 0;
-    padding-bottom: 20px;
-    border-top: 3px solid #ffffff;;
+    padding-bottom: 5px;
+    border-top: 2px solid rgb(162, 255, 182);
+    text-align: center;
+    color: #dfe2eb;
+    font-size: 13px;
   }
-  
+
+.backgroundGenText {
+  margin-bottom: 10%;
+}
+
+.colorButtons{
+  display: flex;
+  flex-direction: row;
+}
 
 .input-colour {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
+    border: 3px solid rgb(211, 233, 216);
+}
+
+
+
+@media (max-height: 700px) {
+  .bg {
+    margin-top: 0px;
+    padding: 0;
+    padding-bottom: 35px;
+  }
+  .backgroundGenText {
+    margin-top: 18%;
+    margin-bottom: 5%;
+  }  
+}
+
+@media (max-height: 400px) {
+  .bg {  
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+  }
+  .backgroundGenText {
+    margin-top: 18%;
+    margin-bottom: 4%;
+    font-size: 11px;
+  }
+  .input-colour {
+    margin-bottom: 35%;
+  }  
 }

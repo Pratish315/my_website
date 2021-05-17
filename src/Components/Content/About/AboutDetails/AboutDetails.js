@@ -25,7 +25,7 @@ const AboutDetails = () => {
           <br></br>
           I am always curious to learn more from others and develop strong relationships with co-workers.
           I am an extremely disciplined individual, with good time-management/punctual skills. I understand that failure is part of life, but I will always get back
-          up and better myself. I am a honest hard-working individual, and I am grateful for where I am today. However, I will never become stagnant, and I will
+          up and better myself. I am a honest & hard-working individual, and I am grateful for where I am today. However, I will never become stagnant, and I will
           always aim higher and continue learning because that is what was installed in me as a child.
           I thoroughly enjoy spending time with family and loved ones. 
           Other hobbies of mine include exercising, eating good food, playing soccer/cricket,

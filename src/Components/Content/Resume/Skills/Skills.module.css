@@ -111,3 +111,9 @@
   color: white;
   display: none;
 }
+
+@media (max-height: 700px) and (max-width: 1500px){
+  .skills_content {
+    width: 98.5%;
+  }  
+}

@@ -6,9 +6,10 @@ const Title = () =>{
     return (
         <div className = "title">
             <h1>
-            Hi, I am <br/><span>Pratish Dullabh</span>
+            Hi, I am <br/><span className = "myname"><b>Pratish Dullabh</b></span>
             </h1>
-            <Typed
+            <Typed 
+            style = {{"color" : "rgb(233, 27, 199)"}}
             strings={["Data Scientist", "Full-Stack Developer", "Software Engineer"]}
             typeSpeed={40}
             backSpeed={50}

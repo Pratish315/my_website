@@ -37,5 +37,17 @@
   background-color: #037fff;
 }
 
+@media (max-height: 700px) {
+  .list li {
+    height: 15%;
+    margin-top: 0.65em;
+  }
+}
 
+@media (max-height: 400px) {
+  .list li {
+    height: 15%;
+    margin-top: 0.8em;
+  }
+}
 

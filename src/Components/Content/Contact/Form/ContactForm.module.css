@@ -18,5 +18,22 @@ label {
 }
 
 .submitButton {
-  margin-bottom: 2%;
+  margin-bottom: 5%;
+}
+
+
+@media (max-width: 500px) {
+  .submitButton {
+    margin-bottom: 0%;
+  }
+}
+@media (max-width: 700px) {
+  .submitButton {
+    margin-bottom: 0%;
+  }
+}
+@media (max-width: 1000px) {
+  .submitButton {
+    margin-bottom: 0%;
+  }
 }

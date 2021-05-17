@@ -10,8 +10,9 @@
     height: 45px; /* height of button */
     background-color: #fcfcfc; /* colour of the button */
     font-size: 30px; /* size of button */
-    border: 3px solid #ffffff; /* border of button */
+    border: 2px solid rgb(162, 255, 182); /* border of button */
     display: none; /* hide the button */
+    padding-top: 3.5px;
   }
   .hamburger:focus {
     outline: none; /* focus = your last click */

@@ -72,3 +72,9 @@
     grid-row: unset !important;
   }
 }
+
+@media (max-height: 700px) and (max-width: 1500px){
+  .box {
+    width: 97%;
+  }  
+}

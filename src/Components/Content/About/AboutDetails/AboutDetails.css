@@ -73,7 +73,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   .about-details {
     flex-flow: column;
     /* justify-content: space-around; */
@@ -88,4 +88,17 @@
   .about-details-textcolor {
     width: 100%;
   }
+}
+
+@media (max-height: 700px) {
+  .about-details-myimage img {
+    width: 400px;
+    height: 500px;
+  }
+}
+
+@media (max-height: 700px) and (max-width: 1500px){
+  .about-details {
+    width: 98.5%;
+  }  
 }

@@ -4,15 +4,57 @@
   justify-content: center; /* horizontal position */
   width: 100%; /* width of div for profile pic */
   height: 35%; /* height of div for profile pic */
-  border-bottom: 3px solid #ffffff;
+  border-bottom: 2px solid rgb(162, 255, 182);
 }
 
 .profile img { /* applies to img tags that are in a div that has class .profile???????? */
-  width: 170px; /* width of the image */
-  height: 170px; /* height of the image */
-  border-radius: 5%; /* the higher the more round */
+  width: 250px; /* width of the image */
+  height: 250px; /* height of the image */
+  border-radius: 50%; /* the higher the more round */
   border: 3px solid #ffffff;/* border of the image */
 }
+
+
+@media (max-width: 500px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 220px; /* width of the image */
+    height: 220px; /* height of the image */
+  }
+}
+@media (max-width: 700px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 220px; /* width of the image */
+    height: 220px; /* height of the image */
+  }  
+}
+@media (max-width: 1000px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 220px; /* width of the image */
+    height: 220px; /* height of the image */
+  }
+}
+
+@media (max-width: 1200px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 220px; /* width of the image */
+    height: 220px; /* height of the image */
+  }
+}
+
+@media (max-height: 700px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 170px; /* width of the image */
+    height: 170px; /* height of the image */
+  }
+}
+
+@media (max-height: 400px) {
+  .profile img { /* applies to img tags that are in a div that has class .profile???????? */
+    width: 100px; /* width of the image */
+    height: 100px; /* height of the image */
+  }
+}
+
 
 
 

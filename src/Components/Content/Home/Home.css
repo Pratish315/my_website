@@ -3,6 +3,7 @@
   height: 100vh;
 }
 
+
 .box {
     display: flex;
     justify-content: center;
@@ -19,13 +20,11 @@
 
   .content span {
     font-weight: bold;
-    color: #037fff;
   }
 
   .typedcursor {
     font-size: 25px;
     font-weight: bold;
-    color: #a4acc4;
   }
   .social_media_icons a {
     display: inline-flex;
@@ -76,5 +75,12 @@
   @media (max-width: 1500px) and (min-width: 1001px) {
     .container {
       margin-left: 19.5% !important;
+    }
+  }
+
+  @media (max-height: 400px) {
+    .box{
+      margin-top: 100px;
+      padding-bottom: 120px;
     }
   }
