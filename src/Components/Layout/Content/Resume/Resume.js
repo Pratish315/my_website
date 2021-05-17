@@ -3,7 +3,7 @@ import ResumeDetails from "./ResumeDetails/ResumeDetails";
 import Skills from "./Skills/Skills";
 import { Spring } from "react-spring";
 import Classes from "./Resume.module.css";
-import mycv from "./CV-updated.pdf"
+import mycv from "../../../../assets/CV-updated.pdf"
 
 const resume = () => {
   return (

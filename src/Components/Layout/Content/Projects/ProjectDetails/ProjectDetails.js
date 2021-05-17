@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Classes from "./Project.module.css";
-import img1 from "./facialRec.PNG";
-import img2 from "./roboHooks.PNG";
+import Classes from "./ProjectDetails.module.css";
+import img1 from "../../../../../assets/facialRec.PNG";
+import img2 from "../../../../../assets/roboHooks.PNG";
 
 class Project extends Component {
   constructor() {

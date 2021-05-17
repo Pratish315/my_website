@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "./Project/Project";
+import Project from "./ProjectDetails/ProjectDetails";
 import { Spring } from "react-spring";
 import Classes from "./Projects.module.css";
 
