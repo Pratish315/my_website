@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import ContactForm from "./Form/ContactForm";
 import { Spring, animated } from "react-spring";
 import Classes from "./Contact.module.css";
@@ -6,7 +6,8 @@ import Header from "../Contact/Header/Header";
 import Description from "../Contact/Description/Description"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import fireBase from "./DataBase/FireBase"
+import fireBase from "./DataBase/FireBase";
+import "animate.css";
 
 class Contact extends Component {
 
@@ -21,9 +22,11 @@ class Contact extends Component {
         emailError: "",
       },
       mainError: "",
-      submitButton: (<button type="submit" className={"btn btn-primary "}>Submit</button>),
+      submitButton: <button className={"btn btn-primary"} type="submit" > Submit </button>
     };
   }
+
+ 
 
 
 /* ######################################################### */  
@@ -33,6 +36,10 @@ class Contact extends Component {
     const errors = this.state.errors;
   
     this.setState({[inputName]: inputValue});
+    if (this.state.mainError === "Your query was submitted successfully."){
+      this.setState({ mainError: "" });
+    }
+    this.setState({submitButton : (<button className={"btn btn-primary"} type="submit" > Submit </button>)})
 
     switch (inputName) {
       case "email":
@@ -57,6 +64,9 @@ class Contact extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
     
+    this.setState({submitButton : (<button className={"btn btn-primary animate__animated animate__shakeX"} type="submit" > Submit </button>)})
+    setTimeout(() => this.setState({submitButton : (<button className={"btn btn-primary"} type="submit" > Submit </button>)}), 500);
+
     const { name, email} = this.state;
     var isValid = false
 
@@ -69,7 +79,7 @@ class Contact extends Component {
         mainError: "Please enter a valid email address.",
       });
     } else {
-      this.setState({ mainError: "" });
+      this.setState({ mainError: "Your query was submitted successfully." });
       isValid = true;
     }    
 
@@ -82,7 +92,10 @@ class Contact extends Component {
       }; 
       
       fireBase.collection("Users").add(data).then((res) => {toast.success("Thank you for contacting me, I will get back to you soon :)", {position: toast.POSITION.BOTTOM_CENTER})}).catch((error) => {console.log(error)});
-      this.setState({submitButton : (<button disabled type="submit" className="btn btn-primary">Submit</button>)})
+
+      this.setState({submitButton : (<button className={"btn btn-primary animate__animated animate__shakeY"} type="submit" > Submit </button>)})
+      setTimeout(() => this.setState({submitButton : (<button disabled className={"btn btn-primary"} type="submit" > Submit </button>)}), 500);
+  
   }
 
 }

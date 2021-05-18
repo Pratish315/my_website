@@ -42,7 +42,7 @@ const ContactForm = (props) => {
       </div>
       <div className = {Classes.submitButton}>
         {props.submitButton}
-        <span style={{ color: "red", marginLeft : "15px" }}>{props.mainError}</span>
+        <span style={{ color: props.mainError === "Your query was submitted successfully." ? "rgb(72, 255, 0)" : "Yellow", marginLeft : "20px" }}>{props.mainError}</span>
       </div>      
     </form>
   );

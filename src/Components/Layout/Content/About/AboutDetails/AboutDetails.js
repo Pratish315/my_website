@@ -9,13 +9,15 @@ const AboutDetails = () => {
     <div>
       <Header />
       <div className = {AboutDetailsStyle.about_details}>
-        <Tilt>
-        <div style={{ height: '100%'}} className = {AboutDetailsStyle.about_details_myimage}  >
+        
+        <div className = {AboutDetailsStyle.about_details_myimage}  >
           <a href={myimage}>
+            <Tilt>
             <img src={myimage} alt="Pratish Dullabh" />
+            </Tilt>
           </a>
         </div>
-        </Tilt>
+        
         <div className = {AboutDetailsStyle.about_details_mydetails}>
           <h2>
             Description:
