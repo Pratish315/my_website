@@ -1,3 +1,5 @@
+
+
 .profile {
   display: flex;
   align-items: center; /* vertical position */
@@ -14,6 +16,13 @@
   border: 3px solid #ffffff;/* border of the image */
 }
 
+.profile img:hover { /* applies to img tags that are in a div that has class .profile???????? */
+  animation: beat .25s infinite alternate
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
 
 @media (max-width: 500px) {
   .profile img { /* applies to img tags that are in a div that has class .profile???????? */

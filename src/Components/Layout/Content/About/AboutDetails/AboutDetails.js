@@ -2,17 +2,20 @@ import React from "react";
 import myimage from "../../../../../assets/me.JPG";
 import AboutDetailsStyle from "./AboutDetails.module.css";
 import Header from "./Header/Header";
+import Tilt from 'react-parallax-tilt';
 
 const AboutDetails = () => {
   return (
     <div>
       <Header />
       <div className = {AboutDetailsStyle.about_details}>
-        <div className = {AboutDetailsStyle.about_details_myimage}>
+        <Tilt>
+        <div style={{ height: '100%'}} className = {AboutDetailsStyle.about_details_myimage}  >
           <a href={myimage}>
             <img src={myimage} alt="Pratish Dullabh" />
           </a>
         </div>
+        </Tilt>
         <div className = {AboutDetailsStyle.about_details_mydetails}>
           <h2>
             Description:

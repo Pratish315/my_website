@@ -1,7 +1,7 @@
 .input {
   background-color: rgb(188, 218, 228) !important;
   border: 1px solid #2e344e !important;
-  
+  margin-bottom: 30px;
 }
 
 .label_astrix::after {
@@ -19,6 +19,7 @@ label {
 
 .submitButton {
   margin-bottom: 5%;
+  margin-top: 50px;
 }
 
 

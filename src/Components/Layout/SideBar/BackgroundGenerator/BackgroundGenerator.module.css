@@ -21,16 +21,16 @@
   padding-right: 1%;
 }
 
-.colorButtons{
-  display: flex;
-  flex-direction: row;
-}
 
 .input_colour {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     border: 1.5px solid rgba(162, 255, 182, 0.562);
+}
+
+.input_colour:hover {
+  cursor: pointer;
 }
 
 
