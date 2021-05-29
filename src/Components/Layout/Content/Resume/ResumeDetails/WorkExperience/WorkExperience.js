@@ -13,7 +13,7 @@ const expertise = () => {
       The engine consisted of 6 different ALS models each trained on various levels.
       Business stakeholders were happy with the results and felt that the solution offered additional value.  
       The models were successfully put into production and consumed internally and across digital channels.
-      My role also included assisting with the configs to ensure the models were scalable in production.
+      I also assisted with the configs to ensure the models were scalable in production.
       </p>
       <p>Another and more recent project of mine consisted of creating definitions for whether customers have churned or not from categories. 
       Having thousands of categories with each of them having their own lifecycle, I decided to generate dynamic definitions for each category using clustering. 

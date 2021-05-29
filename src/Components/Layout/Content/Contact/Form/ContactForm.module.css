@@ -9,7 +9,7 @@
 }
 
 .input:focus {
-  box-shadow: 0 0 0 0.1rem rgb(164, 172, 196) !important;
+  box-shadow: 0 0 0 0.1rem rgb(77, 114, 224) !important;
 }
 
 label {
