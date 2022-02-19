@@ -9,22 +9,39 @@ const expertise = () => {
       <FontAwesomeIcon icon={faShieldAlt} size = '2x' color = 'white'/>
       <h5>Work Experience</h5>
       <h6>Data Scientist, Shoprite Holdings (Cape Town, SA: Jan. 01, 2021 – Present)</h6>
-      <p>I was responsible for developing a hybrid-recommendation-engine for the business.
-      The engine consisted of 6 different ALS models each trained on various levels.
-      Business stakeholders were happy with the results and felt that the solution offered additional value.  
-      The models were successfully put into production and consumed internally and across digital channels.
-      I also assisted with the configs to ensure the models were scalable in production.
+      <h7>Data Science - model development to drive customer personalisation: </h7>
+      <p>Developed multiple collaborative-filtering model that would form part of the company’s
+      recommendation engine. I showcased this to business and currently it serves as the primary input for
+      personalised deals sent to customers.
       </p>
-      <p>Another and more recent project of mine consisted of creating definitions for whether customers have churned or not from categories. 
-      Having thousands of categories with each of them having their own lifecycle, I decided to generate dynamic definitions for each category using clustering. 
-      The predictive aspect of this project involved developing a classification model to accurately predict the likelihood of a customer churning within a variable time frame from now. After demoing the results and achieving an accuracy of +-87%, clients were pleased, and the model was productionalized.
-      </p>      
+      <p>Another data science related project of mine consisted of creating definitions for whether customers
+      have churned from categories. The predictive aspect of this project involved developing a classification
+      model to accurately predict the likelihood of a customer churning within a variable time frame. After
+      exhibiting the results and achieving an average yearly accuracy of +-85%, clients were pleased, and the
+      model was consumed for gamification/rewards initiatives and offer-generation use cases.
+      </p>  
+      <h7>Data Engineering - data mart development for analytics: </h7>
+      <p>Converted raw data into correctly grained data marts that housed a substantial amount of valuable
+      customer insights and readily available features for ML models
+      </p>  
+      <h7>Dev-Ops - ETL and CI/CD pipeline creation for product automation: </h7>
+      <p>Through automating jobs and pushing them into production, 40 hours of manual work was eliminated
+      and reliability for service delivery was increased.
+      </p>       
+      <h7>Software Engineering - design and develop scalable integration applications:
+ </h7>
+      <p>Integrated billions of records of data into the company’s ERP system. To achieve a scalable solution, I
+      used spark and called an API concurrently through a pandasUDF function for batches of customers.
+      </p>                        
       <h6>Data Science Intern, Shoprite Holdings (Cape Town, SA: Feb. 03, 2020 – Dec. 31, 2020)</h6>
       <p>
-      My first project involved forecasting the demand for articles at different branches. 
-      Other projects for the year involved deriving meaningful clusters of customers, stores, and categories based on their price sensitivity. 
-      I then presented the results of these models and its impact on the business to the respective clients and received good feedback.  
+      During my internship year I participated in a Machine Learning competition amongst other data
+      scientists to predict the demand of products at various branches, where I placed 1st.
       </p>
+      <p>
+      I was involved in acquiring audiences for targeted deals through data science, which yielded over 1 billion Rand in
+      incremental sales within a year
+      </p>      
     </Auxillary>
   );
 };

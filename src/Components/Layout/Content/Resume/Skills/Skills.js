@@ -15,7 +15,8 @@ class Skills extends Component {
       { id: 5, name: "CSS", percentage: 75},
       { id: 6, name: "REACT", percentage: 77},
       { id: 7, name: "JAVASCRIPT", percentage: 80},
-      { id: 8, name: "MONGODB", percentage: 80},
+      { id: 8, name: "DATABASE TECHNOLOGY", percentage: 90},
+      { id: 8, name: "SOFTWARE ENGINEERING", percentage: 90},
       { id: 9, name: "UNIX", percentage: 78},
       { id: 10, name: "HASKELL", percentage: 70},
       { id: 11, name: "Google Cloud / AWS", percentage: 80},
@@ -24,6 +25,9 @@ class Skills extends Component {
       { id: 14, name: "DOCKER & KUBERNETES", percentage: 80},
       { id: 15, name: "NODEJS", percentage: 79},
       { id: 16, name: "BIG DATA", percentage: 85},
+      { id: 16, name: "DATA ENGINEERING", percentage: 88},
+      { id: 16, name: "DEV OPS", percentage: 86},
+      { id: 8, name: "BLOCKCHAIN DEVELOPMENT", percentage: 70},
     ],
   };
   render() {

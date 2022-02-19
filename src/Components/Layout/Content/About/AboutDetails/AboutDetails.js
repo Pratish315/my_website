@@ -25,16 +25,14 @@ const AboutDetails = () => {
           <p>
           Since a young boy I was fascinated with computers and how they work. Computers is what I do, and I do what I love, every single day! I am continuously driven
           to solve problems, whilst simultaneously expanding my knowledge. For me, it is a privilege to be given the opportunity
-          to do this within my employer's environment.
-          <br></br>
-          <br></br>
-          I am always curious to learn more from others and develop strong relationships with co-workers.
-          I am an extremely disciplined individual, with good time-management/punctual skills. I understand that failure is part of life, but I will always get back
-          up and better myself. I am a honest & hard-working individual, and I am grateful for where I am today. However, I will never become stagnant, and I will
-          always aim higher and continue learning because that is what was installed in me as a child.
-          I thoroughly enjoy spending time with family and loved ones. 
-          Other hobbies of mine include exercising, eating good food, playing soccer/cricket,
-          gaming, travelling and finally - coding!
+          to do this within my employer's environment.                          
+          <br />
+          <br />
+          I am currently working as a Data Scientist at ShopriteX, with over 2 years of experience in Big Data, Data Science, Software Engineering, Data Engineering and Dev-Ops.
+          <br />
+          <br />        
+          My passion is full-stack software development and I am enthusiastic about machine learning, artificial intelligence and autonomous operations.
+          I am always curious to learn from others and develop strong relationships with co-workers. I am a flexible team player that prospers in a fast-paced environment. I thoroughly enjoy spending time with family and friends. Other hobbies of mine include going to the gym, enjoying gourmet foods, playing soccer/cricket, gaming, travelling and finally … coding!
           </p>
         </div>
       </div>
