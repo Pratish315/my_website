@@ -10,7 +10,7 @@ const Title = () =>{
             </h1>
             <Typed 
             style = {{"color" : "rgb(233, 27, 199)", "fontSize" : "30px"}}
-            strings={["Data Scientist", "Web Development", "Software Engineer", "Data Engineer", "Dev-Ops"]}
+            strings={["Data Scientist", "Web Developer", "Software Engineer", "Data Engineer", "Dev-Ops Engineer"]}
             typeSpeed={40}
             backSpeed={50}
             className = "typedcursor"
