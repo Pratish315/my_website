@@ -25,8 +25,9 @@ const expertise = () => {
       customer insights and readily available features for ML models
       </p>  
       <h7>Dev-Ops - ETL and CI/CD pipeline creation for product automation: </h7>
-      <p>Through automating jobs and pushing them into production, 40 hours of manual work was eliminated
-      and reliability for service delivery was increased.
+      <p>Successfully developed and proposed enhanced production patterns to speed up service delivery.
+      Through automating jobs and pushing them into production, 40 hours of manual work a week was
+      eliminated and reliability for service delivery was increased.
       </p>       
       <h7>Software Engineering - design and develop scalable integration applications:
  </h7>

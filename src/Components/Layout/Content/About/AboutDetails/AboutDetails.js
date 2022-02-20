@@ -32,7 +32,7 @@ const AboutDetails = () => {
           <br />
           <br />        
           My passion is full-stack software development and I am enthusiastic about machine learning, artificial intelligence and autonomous operations.
-          I am always curious to learn from others and develop strong relationships with co-workers. I am a flexible team player that prospers in a fast-paced environment. I thoroughly enjoy spending time with family and friends. Other hobbies of mine include going to the gym, enjoying gourmet foods, playing soccer/cricket, gaming, travelling and finally … coding!
+          I am always curious to learn from others and develop strong relationships with co-workers. I am a flexible team player that prospers in a fast-paced environment. I thoroughly enjoy spending time with family and friends. Other hobbies of mine include going to the gym, indulging in gourmet foods, playing soccer/cricket, gaming, travelling and finally … coding!
           </p>
         </div>
       </div>
