@@ -37,7 +37,7 @@ const expertise = () => {
       <h6>Data Science Intern, Shoprite Holdings (Cape Town, SA: Feb. 03, 2020 – Dec. 31, 2020)</h6>
       <p>
       During my internship year I participated in a Machine Learning competition amongst other data
-      scientists to predict the demand of products at various branches, where I placed 1st.
+      scientists to predict the demand of products at various branches, where I achieved 1st place.
       </p>
       <p>
       I was involved in acquiring audiences for targeted deals through data science, which yielded over 1 billion Rand in

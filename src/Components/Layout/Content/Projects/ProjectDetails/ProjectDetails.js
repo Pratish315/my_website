@@ -13,7 +13,7 @@ class Project extends Component {
           img: img1,
           alt: "Facial Recognition",
           topic: "Facial Recognition",
-          description: "To learn React, I created this facial recognition webapp using PostgreSQL, ExpressJS & Clarifai's API and deployed it on Heroku.",
+          description: "To familiarize myself with React, I created this facial recognition webapp using PostgreSQL, ExpressJS & Clarifai's API and deployed it on Heroku.",
           codeLink: "https://github.com/Pratish315/facial-recognition-static-frontend",
           liveLink: "https://pratish315.github.io/facial-recognition-static-frontend/"
         },
