@@ -1,1 +1,0 @@
-This website was created using React and it describes my professional attributes.
