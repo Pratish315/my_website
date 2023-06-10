@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import ContactForm from "./Form/ContactForm";
 import { Spring, animated } from "react-spring";
 import Classes from "./Contact.module.css";
@@ -6,7 +6,7 @@ import Header from "../Contact/Header/Header";
 import Description from "../Contact/Description/Description"
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
-import ContactStyle from "./Contact.module.css";
+import 'animate.css';
 
 class Contact extends Component {
 
@@ -83,12 +83,6 @@ class Contact extends Component {
     }    
 
     if (isValid === true) {
-      let data = {
-        name: this.state.name,
-        email: this.state.email,
-        phone: this.state.phone,
-        message: this.state.message
-      }; 
       
       toast.success("Thank you for contacting me, I will get back to you soon :)", { position: toast.POSITION.BOTTOM_CENTER });
 
@@ -112,7 +106,7 @@ class Contact extends Component {
               <div className={Classes.content}>
                 <Header />
                 <Description />
-                <div className={Classes.contact_form}>
+                <div className={Classes.ContactForm}>
                   <ContactForm 
                     handleChange = {this.handleChange}
                     handleSubmit = {this.handleSubmit}

@@ -1,6 +1,9 @@
 .input {
   background-color: rgb(188, 218, 228) !important;
   border: 1px solid #2e344e !important;
+  border-radius: 5px;
+  min-width: 400px; /* Adjust the value as needed */
+  min-height: 30px;
 }
 
 .label_astrix::after {
@@ -14,12 +17,28 @@
 
 label {
   color: antiquewhite;
+  display: flex;
+  margin-bottom: 10px;
   margin-top: 10px;
 }
 
 .submitButton {
   margin-bottom: 5%;
-  margin-top: 50px;
+  margin-top: 20px;
+}
+
+.submitButton button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.submitButton button:hover {
+  background-color: darkblue;
+  cursor: pointer;
 }
 
 
