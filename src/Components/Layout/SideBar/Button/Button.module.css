@@ -4,7 +4,7 @@
 
 .hamburger {
     position: absolute; /* the element is positioned absolutely to its first positioned parent */
-    top: 31px; /* position from the top */
+    top: 0px; /* position from the top */
     left: 100%; /* position to the left */
     width: 45px; /* width of button */
     height: 45px; /* height of button */
