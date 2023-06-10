@@ -1,0 +1,53 @@
+.sidebar {
+  position: fixed;
+  top: 0; /* position from the top */
+  left: 0; /* position from the left */
+  width: 18vw; /* width of sidebar */
+  height: 100vh; /* height of sidebar */
+  /*background: linear-gradient(to right, rgb(197, 193, 193), rgb(17, 17, 17)); /* /* colour of sidebar */
+  border-right: 2px solid rgb(162, 255, 182); /* border of sidebar */
+  z-index: 10; /* visibility of sidebar */
+  transition: all 0.4s ease-out;
+}
+
+/* Closes the sidebar */
+@media (max-width: 500px) {
+  .Closesidebar {
+    width: 260px; /* width of sidebar */
+    transform: translateX(-260px); /* initially moved 260px left so all you see is the button */
+  }
+}
+@media (max-width: 700px) {
+  .Closesidebar {
+    width: 260px;
+    transform: translateX(-260px);
+  }
+}
+@media (max-width: 1000px) {
+  .Closesidebar {
+    width: 260px;
+    transform: translateX(-260px);
+  }
+}
+
+
+/* Opens the sidebar */
+@media (max-width: 500px) {
+  .Opensidebar {
+    width: 260px; /* width of sidebar */
+    transform: translateX(0); /* move it back to the right (0 = 0pixels from the left) */
+  }
+}
+@media (max-width: 700px) {
+  .Opensidebar {
+    width: 260px;
+    transform: translateX(0);
+  }
+}
+@media (max-width: 1000px) {
+  .Opensidebar {
+    width: 260px;
+    transform: translateX(0px);
+  }
+}
+
