@@ -26,12 +26,12 @@ class Layout extends Component {
       <Auxillary>
         <SideBar isSideBarOpened = {this.state.isSideBarOpened} clicked = {this.openSideBar} />
         <Routes>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/my_website" component={Home} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
+          <Route path="/" element={<Home />} />
+          <Route exact path="/my_website" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/resume" element={<Resume />} />
+          <Route exact path="/projects" element={<Projects />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>  
       </Auxillary>               
     );
