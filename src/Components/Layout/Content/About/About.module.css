@@ -1,13 +1,21 @@
 .about_full_container {
   position: absolute;
-  top: 0; /* position from the top */
-  left: 0; /* position from the left */
-  width: 100vw; /* width of sidebar */
-  min-height: 100vh; /* ensures it stays when you scrolls */
+  top: 0;
+  left: 0;
+  min-width: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to right, rgb(4, 5, 5), rgb(14, 9, 9)); /* /* colour of sidebar */
-  border: rgb(10, 10, 10) 1px solid;
+  margin-left: 0px;
   z-index: -20;
-  padding-top: 50px;
+}
+
+.about_container {
+  position: relative;
+  width: 79%;
+  min-height: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 18%;
 }
 
 .about_content {
@@ -16,47 +24,64 @@
   color: rgb(233, 92, 92);
 }
 
-.about_container {
-  width: 80.5% !important;
-  min-height: 100vh;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-left: 18.5%;
-}
 
 @media (max-width: 500px) {
   .about_container {
-    width: 100% !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    margin-top: 50px;
-  }
-
-
-}
-
-@media (max-width: 700px) {
-  .about_container {
-    width: 100% !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto !important;
-    margin-left: auto;
-    margin-top: 50px;
+    margin-left: 7%;
+    width: 90%;
   }
 }
 
 @media (max-width: 1000px) {
   .about_container {
-    width: 100% !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
   }
-
-
+  .about_full_container{
+    position: absolute;
+    margin-left: 0%;
+    min-width: 100%;
+  }
 }
+
+@media (max-width: 1500px) and (min-width: 1001px) {
+  .about_container {
+    width: 79%;
+  }
+  .about_full_container{
+    position: absolute;
+    margin-left: 0%;
+    min-width: 100%;
+  }
+}
+
+
+
+@media (max-height: 400px) {
+  .about_container{
+    margin-left: 18%;
+    width: 80%;
+  }
+}
+
+@media (max-height: 500px) and (max-width: 500px) {
+  .about_container{
+    margin-left: 12%;
+    width: 80%;
+  }
+}
+
+@media (max-height: 500px) and (max-width: 900px) {
+  .about_container{
+    margin-left: 12%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .about_container{
+    margin-left: 12%;
+    width: 80%;
+  }
+}
+
