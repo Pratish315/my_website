@@ -6,9 +6,7 @@
     justify-content: center;
     flex-direction: column;    
     margin: 0;
-    margin-top: 20px;
     padding: 0;
-    padding-bottom: 5px;
     border-top: 2px solid rgb(162, 255, 182);
     text-align: center;
     color: #dfe2eb;
@@ -19,13 +17,14 @@
   margin-bottom: 10%;
   padding-left: 1%;
   padding-right: 1%;
+  font-size: 100%;
 }
+
 
 
 .input_colour {
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
     border: 1.5px solid rgba(162, 255, 182, 0.562);
 }
 
@@ -36,29 +35,33 @@
 
 
 @media (max-height: 700px) {
-  .bg {
-    margin-top: 0px;
-    padding: 0;
-    padding-bottom: 35px;
-  }
   .backgroundGenText {
-    margin-top: 18%;
-    margin-bottom: 5%;
-  }  
+    margin-top: 16%;
+    margin-bottom: 3%;
+    font-size: 80%;
+  }
+  .inputSection {
+    height: 25%;
+    margin-bottom: 20%;
+  }
+  .input_colour {
+    width: 30px;
+    height: 20px;
+}
 }
 
 @media (max-height: 400px) {
-  .bg {  
-    margin: 0;
-    margin-top: 10px;
-    padding: 0;
-  }
   .backgroundGenText {
-    margin-top: 18%;
-    margin-bottom: 4%;
-    font-size: 11px;
+    margin-top: 16%;
+    margin-bottom: 3%;
+    font-size: 80%;
+  }
+  .inputSection {
+    height: 25%;
+    margin-bottom: 20%;
   }
   .input_colour {
-    margin-bottom: 35%;
-  }  
+    width: 30px;
+    height: 20px;
+}
 }
