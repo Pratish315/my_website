@@ -1,3 +1,17 @@
 .hire_call {
     margin-top: 25px;
 }
+
+.hire_call button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .hire_call button:hover {
+    background-color: darkblue;
+    cursor: pointer;
+  }
