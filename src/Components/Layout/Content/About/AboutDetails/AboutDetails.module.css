@@ -24,6 +24,7 @@
   width: 80%;
   height: auto;
   max-width: 80%;
+  margin-right: 2%;
 }
 
 @media (max-width: 500px) {
