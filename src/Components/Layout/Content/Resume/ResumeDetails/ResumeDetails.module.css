@@ -1,7 +1,7 @@
 .education_expertise {
   margin-top: 45px;
   position: relative;
-  width: 100%;
+  width: 98%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: minmax(100px, auto);
@@ -73,6 +73,7 @@
 @media (max-width: 1000px) {
   .education_expertise {
     grid-template-columns: repeat(1, 1fr);
+    width: 96%;
   }
   .education_expertise .box {
     grid-column: unset !important;

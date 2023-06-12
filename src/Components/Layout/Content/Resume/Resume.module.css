@@ -1,24 +1,36 @@
 .resume_full_container {
   position: absolute;
-  top: 0; /* position from the top */
-  left: 0; /* position from the left */
-  width: 100vw; /* width of sidebar */
-  min-height: 100vh; /* ensures it stays when you scrolls */
+  top: 0;
+  left: 0;
+  min-width: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to right, rgb(4, 5, 5), rgb(14, 9, 9)); /* /* colour of sidebar */
-  border: rgb(10, 10, 10) 1px solid;
+  margin-left: 0px;
   z-index: -20;
+}
+
+.container {
+  position: relative;
+  width: 79%;
+  min-height: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 18%;
 }
 
 .content {
   width: 100%;
-  margin-top: 35px;
+  margin-top: 75px;
+  margin-left: 1%;
   color: rgb(233, 92, 92);
 }
+
 .resume {
   position: relative;
 }
 .resume h2 {
   font-weight: 700;
+  margin-bottom: 100px;
 
 }
 .resume h2::before {
@@ -52,12 +64,6 @@
   z-index: -10;
 }
 
-.container {
-  width: 80% !important;
-  margin-left: 19.5% !important;
-  padding-top: 40px;
-}
-
 .downloadCV button {
   background-color: blue;
   color: white;
@@ -73,53 +79,67 @@
 }
 
 @media (max-width: 500px) {
+  .resume_full_container{
+    position: absolute;
+    margin-left: 0%;
+    min-width: 100%;
+  }  
   .container {
-    width: 100% !important;
+    max-width: 90%;
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    padding-top: 65px;
   }
   .resume span {
     font-size: 2.7rem;
     top: 46%;
   }
-  .downloadCV{
-    padding-top: 15%;
+  body {
+    overflow-x: hidden;
   }
 }
 @media (max-width: 700px) {
+  .resume_full_container{
+    position: absolute;
+    margin-left: 0%;
+    min-width: 100%;
+  }  
   .container {
-    width: 100% !important;
+    max-width: 93%;
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-right: auto !important;
     margin-left: auto !important;
-    padding-top: 65px;
+
   }
   .resume span {
     font-size: 2.7rem;
     top: 46%;
   }
-  .downloadCV{
-    padding-top: 15%;
-  }
+  body {
+    overflow-x: hidden;
+  }  
 }
 @media (max-width: 1000px) {
+  .resume_full_container{
+    position: absolute;
+    margin-left: 0%;
+    min-width: 100%;
+  }  
   .container {
-    width: 100% !important;
+    width: 95% !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-right: auto !important;
-    margin-left: auto !important;
-    padding-top: 65px;
+    margin-left: 5px !important;
+
   }
   .resume span {
     font-size: 2.7rem;
     top: 46%;
   }
-  .downloadCV{
-    padding-top: 15%;
+  body {
+    overflow-x: hidden;
   }
 }

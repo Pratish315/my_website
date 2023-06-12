@@ -93,6 +93,7 @@
 @media (max-width: 1000px) {
   .skills_content {
     grid-template-columns: repeat(1, 1fr);
+    width: 92%;
   }
   .skills_content .box {
     grid-column: unset !important;
