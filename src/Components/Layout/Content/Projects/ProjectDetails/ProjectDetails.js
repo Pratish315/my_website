@@ -35,13 +35,15 @@ class Project extends Component {
         {this.state.projects.map((project) => {
           return (
             <div key={project.id} className={Classes.box}>
-              <span className={Classes.topic}>
-                <span>{project.topic} 
-                <br></br>
-                <p>{project.description} </p>
+              <div className={Classes.project}> 
+                <img src={project.img} alt={project.alt}  />
+                <span className={Classes.text}>
+                  <span>{project.topic} 
+                  <br></br>
+                  <p>{project.description} </p>
+                  </span>
                 </span>
-              </span>
-              <img src={project.img} alt={project.alt}  />
+              </div>
               <a href={project.liveLink} rel="noopener noreferrer"  target="_blank" >
                 <button className={Classes.githubbut} >View live</button>
               </a>

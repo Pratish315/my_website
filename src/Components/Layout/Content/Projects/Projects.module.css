@@ -1,26 +1,37 @@
 .projects_full_container {
   position: absolute;
-  top: 0; /* position from the top */
-  left: 0; /* position from the left */
-  width: 100vw; /* width of sidebar */
-  min-height: 100vh; /* ensures it stays when you scrolls */
+  top: 0;
+  left: 0;
+  min-width: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to right, rgb(4, 5, 5), rgb(14, 9, 9)); /* /* colour of sidebar */
-  border: rgb(10, 10, 10) 1px solid;
+  margin-left: 0px;
   z-index: -20;
+}
+
+.container {
+  position: relative;
+  width: 79%;
+  min-height: 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-left: 18%;
 }
 
 .content {
   width: 100%;
-  margin-top: 45px;
+  margin-left: 1%;
+  margin-top: 75px;
   color: rgb(233, 92, 92);
 }
-.projetcs {
+.projects {
   position: relative;
 }
-.projetcs h2 {
+.projects h2 {
   font-weight: 700;
+  margin-bottom: 100px;
 }
-.projetcs h2::before {
+.projects h2::before {
   content: "";
   position: absolute;
   left: 0;
@@ -31,7 +42,7 @@
   background: rgba(3, 127, 255, 0.3);
   border-radius: 100px;
 }
-.projetcs h2::after {
+.projects h2::after {
   content: "";
   position: absolute;
   left: 0px;
@@ -40,7 +51,7 @@
   height: 5px;
   background: #037fff;
 }
-.projetcs span {
+.projects span {
   position: absolute;
   left: 0;
   top: -19%;
@@ -51,55 +62,47 @@
   z-index: -10;
 }
 
-.container {
-  width: 80% !important;
-  margin-left: 18.5% !important;
-  padding: 1%;
-  padding-right: 0.01%;
-  padding-top: 30px;
-  padding-bottom: 10%;
-}
+
 @media (max-width: 500px) {
   .container {
-    width: 100% !important;
+    width: 87% !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-right: auto !important;
-    margin-left: auto !important;
-    padding-top: 55px;
-    padding-bottom: 25%;
+    margin-left: 5px !important;
   }
-  .projetcs span {
+  .projects span {
     font-size: 2.5rem;
     top: 46%;
   }
 }
 @media (max-width: 700px) {
   .container {
-    width: 100% !important;
+    width: 87% !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-right: auto !important;
-    margin-left: auto !important;
-    padding-top: 55px;
-    padding-bottom: 25%;
+    margin-left: 5px !important;
   }
-  .projetcs span {
+  .projects span {
     font-size: 2.5rem;
     top: 46%;
   }
 }
 @media (max-width: 1000px) {
+  .projects_full_container{
+    position: absolute;
+    margin-left: 0%;
+    min-width: 100%;
+  }    
   .container {
-    width: 100% !important;
+    width: 90% !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
     margin-right: auto !important;
-    margin-left: auto !important;
-    padding-top: 55px;
-    padding-bottom: 25%;
+    margin-left: 5px !important;
   }
-  .projetcs span {
+  .projects span {
     font-size: 2.5rem;
     top: 46%;
   }

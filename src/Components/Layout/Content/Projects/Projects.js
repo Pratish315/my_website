@@ -10,7 +10,7 @@ const projects = () => {
       <animated.div style={props} className = {Classes.projects_full_container}> 
         <div className={Classes.container}>
           <div className={Classes.content}>
-            <div className={Classes.projetcs}>
+            <div className={Classes.projects}>
               <h2>Projects</h2>
               <span>My Projects</span>
             </div>
