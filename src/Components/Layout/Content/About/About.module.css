@@ -28,15 +28,15 @@
 
 @media (max-width: 500px) {
   .about_container {
-    margin-left: 7%;
     width: 90%;
+    margin-left: 4%;
   }
 }
 
 @media (max-width: 1000px) {
   .about_container {
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 4%;
   }
   .about_full_container{
     position: absolute;
@@ -54,35 +54,16 @@
     margin-left: 0%;
     min-width: 100%;
   }
+  body {
+    overflow-x: hidden;
+  }  
 }
 
-
-
-@media (max-height: 400px) {
-  .about_container{
-    margin-left: 18%;
-    width: 80%;
-  }
-}
-
-@media (max-height: 500px) and (max-width: 500px) {
-  .about_container{
-    margin-left: 12%;
-    width: 80%;
-  }
-}
-
-@media (max-height: 500px) and (max-width: 900px) {
-  .about_container{
-    margin-left: 12%;
-    width: 80%;
-  }
-}
 
 @media (max-width: 400px) {
-  .about_container{
-    margin-left: 12%;
-    width: 80%;
+  .about_container {
+    width: 90%;
+    margin-left: 4%;
   }
 }
 
