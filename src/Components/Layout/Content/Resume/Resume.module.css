@@ -58,8 +58,18 @@
   padding-top: 40px;
 }
 
-.downloadCV{
-  padding-top: 5%;
+.downloadCV button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.downloadCV button:hover {
+  background-color: darkblue;
+  cursor: pointer;
 }
 
 @media (max-width: 500px) {
