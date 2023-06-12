@@ -18,7 +18,7 @@ const resume = () => {
             </div>
               <div className={Classes.downloadCV}>
                 <a href={mycv} download>
-                  <button className="btn btn-primary">DOWNLOAD MY FULL CV</button>
+                  <button>DOWNLOAD MY FULL CV</button>
                 </a>  
               </div>          
             <ResumeDetails />
