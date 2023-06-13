@@ -4,7 +4,7 @@ import Classes from "./ContactForm.module.css";
 const ContactForm = (props) => {
 
   return (
-    <form method="post" onSubmit={props.handleSubmit}>
+    <form method="post" onSubmit={props.handleSubmit} className={Classes.form_style}>
       <div className="form-group">
         <div>
           <label className = {Classes.label_astrix}>Enter Your Name</label>

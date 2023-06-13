@@ -1,9 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form_style{
+  padding-bottom: 40px;
+}
+
 .input {
-  background-color: rgb(188, 218, 228) !important;
   border: 1px solid #2e344e !important;
   border-radius: 5px;
-  min-width: 400px; /* Adjust the value as needed */
+  width: 700px; /* Adjust the value as needed */
   min-height: 30px;
+  background-color: rgb(205, 231, 240) !important;
+}
+
+.input::placeholder {
+  font-size: 16px; /* Adjust the value as needed */
 }
 
 .label_astrix::after {
@@ -23,7 +36,7 @@ label {
 }
 
 .submitButton {
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   margin-top: 20px;
 }
 
@@ -46,14 +59,27 @@ label {
   .submitButton {
     margin-bottom: 0%;
   }
+  .input {
+    width: 97%;
+  }  
 }
 @media (max-width: 700px) {
   .submitButton {
     margin-bottom: 0%;
   }
+  .input {
+    width: 97%;
+  }    
 }
 @media (max-width: 1000px) {
   .submitButton {
     margin-bottom: 0%;
   }
+  .input {
+    width: 97%;
+  }  
+  .input::placeholder {
+    font-size: 14.5px; /* Adjust the value as needed */
+  }    
 }
+
