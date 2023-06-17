@@ -1,30 +1,20 @@
 {
   "files": {
-    "main.css": "/my_website/static/css/main.49f43a7b.chunk.css",
-    "main.js": "/my_website/static/js/main.7b383ca3.chunk.js",
-    "main.js.map": "/my_website/static/js/main.7b383ca3.chunk.js.map",
-    "runtime-main.js": "/my_website/static/js/runtime-main.985da504.js",
-    "runtime-main.js.map": "/my_website/static/js/runtime-main.985da504.js.map",
-    "static/css/2.6325dd99.chunk.css": "/my_website/static/css/2.6325dd99.chunk.css",
-    "static/js/2.5f76f504.chunk.js": "/my_website/static/js/2.5f76f504.chunk.js",
-    "static/js/2.5f76f504.chunk.js.map": "/my_website/static/js/2.5f76f504.chunk.js.map",
-    "static/js/3.539c0593.chunk.js": "/my_website/static/js/3.539c0593.chunk.js",
-    "static/js/3.539c0593.chunk.js.map": "/my_website/static/js/3.539c0593.chunk.js.map",
+    "main.css": "/my_website/static/css/main.850c8e23.css",
+    "main.js": "/my_website/static/js/main.728baaa0.js",
+    "static/js/787.05dbe972.chunk.js": "/my_website/static/js/787.05dbe972.chunk.js",
+    "static/media/facialRec.png": "/my_website/static/media/facialRec.cd92e03cc4a907dd9bfe.png",
+    "static/media/Pratish Dullabh-CV.pdf": "/my_website/static/media/Pratish Dullabh-CV.50ca488b9a3527cb6671.pdf",
+    "static/media/profilePic.png": "/my_website/static/media/profilePic.58083543ea0c50317f3d.png",
+    "static/media/roboHooks.png": "/my_website/static/media/roboHooks.4babf0efde308ab134ad.png",
+    "static/media/me.jpeg": "/my_website/static/media/me.27e5583e8b294672df43.jpeg",
     "index.html": "/my_website/index.html",
-    "static/css/2.6325dd99.chunk.css.map": "/my_website/static/css/2.6325dd99.chunk.css.map",
-    "static/css/main.49f43a7b.chunk.css.map": "/my_website/static/css/main.49f43a7b.chunk.css.map",
-    "static/js/2.5f76f504.chunk.js.LICENSE.txt": "/my_website/static/js/2.5f76f504.chunk.js.LICENSE.txt",
-    "static/media/Pratish Dullabh-CV.50ca488b.pdf": "/my_website/static/media/Pratish Dullabh-CV.50ca488b.pdf",
-    "static/media/facialRec.ed546138.PNG": "/my_website/static/media/facialRec.ed546138.PNG",
-    "static/media/me.b204c1f2.JPG": "/my_website/static/media/me.b204c1f2.JPG",
-    "static/media/profilePic.6c1991f8.PNG": "/my_website/static/media/profilePic.6c1991f8.PNG",
-    "static/media/roboHooks.fba3dd2c.PNG": "/my_website/static/media/roboHooks.fba3dd2c.PNG"
+    "main.850c8e23.css.map": "/my_website/static/css/main.850c8e23.css.map",
+    "main.728baaa0.js.map": "/my_website/static/js/main.728baaa0.js.map",
+    "787.05dbe972.chunk.js.map": "/my_website/static/js/787.05dbe972.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.985da504.js",
-    "static/css/2.6325dd99.chunk.css",
-    "static/js/2.5f76f504.chunk.js",
-    "static/css/main.49f43a7b.chunk.css",
-    "static/js/main.7b383ca3.chunk.js"
+    "static/css/main.850c8e23.css",
+    "static/js/main.728baaa0.js"
   ]
 }
