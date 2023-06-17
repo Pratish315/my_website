@@ -2,7 +2,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100vh;
   min-height: 100vh;
   background: linear-gradient(to right, rgb(4, 5, 5), rgb(14, 9, 9)); /* /* colour of sidebar */
   margin-left: 0px;

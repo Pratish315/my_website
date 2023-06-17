@@ -50,15 +50,15 @@
 
 @media (max-height: 700px) {
   .profile img { /* applies to img tags that are in a div that has class .profile???????? */
-    width: 60%; /* width of the image */
-    height: 80%; /* height of the image */
+    width: 45%; /* width of the image */
+    height: 60%; /* height of the image */
   }
 }
 
 @media (max-height: 400px) {
   .profile img { /* applies to img tags that are in a div that has class .profile???????? */
-    width: 30%; /* width of the image */
-    height: 90%; /* height of the image */
+    width: 25%; /* width of the image */
+    height: 70%; /* height of the image */
   }
 }
 
