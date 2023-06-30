@@ -7,41 +7,35 @@ const expertise = () => {
   return (
     <Auxillary>
       <FontAwesomeIcon icon={faShieldAlt} size = '2x' color = 'white'/>
-      <h5>Work Experience</h5>
-      <h6>Data Scientist, Shoprite Holdings (Cape Town, SA: Jan. 01, 2021 – Present)</h6>
-      <h7>Data Science - model development to drive customer personalisation: </h7>
-      <p>Developed multiple collaborative-filtering model that would form part of the company’s
-      recommendation engine. I showcased this to business and currently it serves as the primary input for
-      personalised deals sent to customers.
+      <h4>Work Experience</h4>
+      <h6>Machine Learning Engineer, Shoprite Holdings (Cape Town, SA: Aug. 01, 2022 – Present)</h6>
+      <p>
+      My daily duties involve ensuring that all ML models are scalable, cost-effective, accurate, tracked, highly automated and that the value derived from them lands in the hands of the customer.  
       </p>
-      <p>Another data science related project of mine consisted of creating definitions for whether customers
-      have churned from categories. The predictive aspect of this project involved developing a classification
-      model to accurately predict the likelihood of a customer churning within a variable time frame. After
-      exhibiting the results and achieving an average yearly accuracy of +-85%, clients were pleased, and the
-      model was consumed for gamification/rewards initiatives and offer-generation use cases.
-      </p>  
-      <h7>Data Engineering - data mart development for analytics: </h7>
-      <p>Converted raw data into correctly grained data marts that housed a substantial amount of valuable
-      customer insights and readily available features for ML models
-      </p>  
-      <h7>Dev-Ops - ETL and CI/CD pipeline creation for product automation: </h7>
-      <p>Successfully developed and proposed enhanced production patterns to speed up service delivery.
-      Through automating jobs and pushing them into production, 40 hours of manual work a week was
-      eliminated and reliability for service delivery was increased.
-      </p>       
-      <h7>Software Engineering - design and develop scalable integration applications:
- </h7>
-      <p>Integrated billions of records of data into the company’s ERP system. To achieve a scalable solution, I
-      used spark and called an API concurrently through a pandasUDF function for batches of customers.
-      </p>                        
+      <p>
+      I Integrated the data from our personalisation engine (billions of records) into the company’s ERP system which enabled personalised communications through various channels. To achieve a scalable solution, I used spark and called an API concurrently through a pandasUDF function for batches of customers. 
+      </p> 
+      <p>
+      I played a pivotal role in developing our team’s own set of Python utilities to interact with Airflow, MLflow, and various AWS services which are used for taking products to production. 
+      </p>
+      <p>
+      I created CI/CD pipelines for various projects. This includes the necessary pre-commit and code testing checks, constructing build and release pipelines to deploy code and optimal infrastructure to different environments. This included end-to-end and scalability testing with job monitoring in place. 
+      </p>                
+      <h6>Data Scientist, Shoprite Holdings (Cape Town, SA: Jan. 01, 2021 – July. 31, 2022)</h6>
+      <p>
+      I played a crucial role in the development of collaborative-filtering, segmentation and customer churn models. 
+      Business was pleased with the results, and they are used as an input for personalized deals sent to customers. 
+      </p>
+      <p>
+      Furthermore, I served as a core developer in the creation of our company's personalisation engine, enhancing the customer experience and driving revenue growth. I was responsible for the job architecture, scalability, infrastructure and the build logic. 
+      </p>                       
       <h6>Data Science Intern, Shoprite Holdings (Cape Town, SA: Feb. 03, 2020 – Dec. 31, 2020)</h6>
       <p>
-      During my internship year I participated in a Machine Learning competition amongst other data
-      scientists to predict the demand of products at various branches, where I achieved 1st place.
+      During my data science internship, I excelled in a Machine Learning competition, securing 1st place by accurately predicting product demand across multiple stores. 
+      This experience showcased my skills in data analysis and modeling. 
       </p>
       <p>
-      I was involved in acquiring audiences for targeted deals through data science, which yielded over 1 billion Rand in
-      incremental sales within a year
+      I gained valuable insights into different teams' processes and objectives, actively contributing to various projects. Collaborating with colleagues provided me with hands-on experience, further strengthening my expertise in the field. 
       </p>      
     </Auxillary>
   );

@@ -28,11 +28,11 @@ const AboutDetails = () => {
           to do this within my employer's environment.                          
           <br />
           <br />
-          I am currently working as a Data Scientist at ShopriteX, with over 2 years of experience in Big Data, Data Science, Software Engineering, Data Engineering and Dev-Ops.
+          I am currently working as a Machine Learning Engineer at ShopriteX, with over 3 and a half years of experience in Big Data, Cloud Engineering, Data Science, Software Engineering, Data Engineering and Dev-Ops.
           <br />
           <br />        
           My passion is full-stack software development and I am enthusiastic about machine learning, artificial intelligence and autonomous operations.
-          I am always curious to learn from others and develop strong relationships with co-workers. I am a flexible team player that prospers in a fast-paced environment. I thoroughly enjoy spending time with family and friends. Other hobbies of mine include going to the gym, indulging in gourmet foods, playing soccer/cricket, gaming, travelling and finally… coding!
+          I am always curious to learn from others and develop strong relationships with co-workers. I am a flexible team player that prospers in a fast-paced environment. I thoroughly enjoy spending time with family and friends. Other hobbies of mine include gym workouts, gourmet cuisine, soccer/cricket, gaming, and traveling.
           </p>
         </div>
       </div>

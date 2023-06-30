@@ -15,6 +15,12 @@
   border-top: 5px solid #2e344e;
   transition: all 0.4s ease-in-out;
 }
+
+.education_expertise p {
+  text-align: justify;
+  margin-right: 15px;
+}
+
 .education_expertise .box:hover {
   border-top-color: #037fff;
 }
@@ -26,16 +32,24 @@
   font-size: 25px;
   color: #037fff;
 }
-.content h5 {
+.content h4 {
   margin-top: 20px;
   text-transform: capitalize;
   margin-bottom: 44px;
   color: rgb(233, 92, 92);
+  font-size: 25px;
+}
+
+.content h5 {
+  color: antiquewhite;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .content h6 {
   color: antiquewhite;
   margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .content h7 {
